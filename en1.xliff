@@ -1,0 +1,3922 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="Acceptance/Tinder Enterprise UI Acceptance Tests.plist" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8A218a"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Regression/Tinder Enterprise UI Regression Tests.plist" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8A218a"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Stacks/Base.lproj/MainInterface.storyboard" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8A218a"/>
+    </header>
+    <body/>
+  </file>
+  <file original="Stacks/Info.plist" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8A218a"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>Stacks</source>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Stacks/Localizable.strings" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8A218a"/>
+    </header>
+    <body>
+      <trans-unit id="DONE">
+        <source>DONE</source>
+        <note>Done button title</note>
+      </trans-unit>
+      <trans-unit id="Name Your Card Stack">
+        <source>Name Your Card Stack</source>
+        <note>Title for modal stack name input dialog</note>
+      </trans-unit>
+      <trans-unit id="SKIP">
+        <source>SKIP</source>
+        <note>Skip button title</note>
+      </trans-unit>
+      <trans-unit id="Set a name">
+        <source>Set a name</source>
+        <note>Stack name input placeholder text</note>
+      </trans-unit>
+      <trans-unit id="Which do you like?">
+        <source>Which do you like?</source>
+        <note>Default caption if user taps SKIP button</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Tinder Enterprise UI Tests.plist" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8A218a"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>${CUSTOM_PRODUCT_NAME}</source>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>${CUSTOM_PRODUCT_NAME}</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>5.2.0 E</source>
+      </trans-unit>
+      <trans-unit id="NSLocationWhenInUseUsageDescription">
+        <source>Recommendations will be presented based on your location.</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Tinder EnterpriseUITests/Info.plist" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8A218a"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Tinder Production Tests/Info.plist" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8A218a"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Tinder Production Tests/Localizable.strings" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8A218a"/>
+    </header>
+    <body>
+      <trans-unit id="%1$@, %2$@">
+        <source>%1$@, %2$@</source>
+        <note>city(=1), state(=2)</note>
+      </trans-unit>
+      <trans-unit id="Listen to more music in Spotify and\ntry back later!">
+        <source>Listen to more music in Spotify and
+try back later!</source>
+        <note>Bottom text for Zero Artists found in spotify settings</note>
+      </trans-unit>
+      <trans-unit id="Matched on %@">
+        <source>Matched on %@</source>
+        <note>Matched on (date)</note>
+      </trans-unit>
+      <trans-unit id="Recommendations will be presented based on your location.">
+        <source>Recommendations will be presented based on your location.</source>
+        <note>Purpose for using device location</note>
+      </trans-unit>
+      <trans-unit id="We found 0 top artists\nin your Spotify Account">
+        <source>We found 0 top artists
+in your Spotify Account</source>
+        <note>Top text for Zero Artists found in spotify settings</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Tinder WatchKit App/Base.lproj/Interface.storyboard" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8A218a"/>
+    </header>
+    <body>
+      <trans-unit id="1si-pY-kL2.text">
+        <source>Label</source>
+        <note>Class = "WKInterfaceLabel"; text = "Label"; ObjectID = "1si-pY-kL2";</note>
+      </trans-unit>
+      <trans-unit id="4GC-aH-FYK.text">
+        <source>Label</source>
+        <note>Class = "WKInterfaceLabel"; text = "Label"; ObjectID = "4GC-aH-FYK";</note>
+      </trans-unit>
+      <trans-unit id="BLW-HW-HNP.text">
+        <source>Lindsay</source>
+        <note>Class = "WKInterfaceLabel"; text = "Lindsay"; ObjectID = "BLW-HW-HNP";</note>
+      </trans-unit>
+      <trans-unit id="Ch6-SX-jij.title">
+        <source>Messages</source>
+        <note>Class = "WKInterfaceController"; title = "Messages"; ObjectID = "Ch6-SX-jij";</note>
+      </trans-unit>
+      <trans-unit id="DRH-7q-lrX.text">
+        <source>Label</source>
+        <note>Class = "WKInterfaceLabel"; text = "Label"; ObjectID = "DRH-7q-lrX";</note>
+      </trans-unit>
+      <trans-unit id="Dm2-CK-TBy.text">
+        <source>42</source>
+        <note>Class = "WKInterfaceLabel"; text = "42"; ObjectID = "Dm2-CK-TBy";</note>
+      </trans-unit>
+      <trans-unit id="Gg4-G8-CuZ.text">
+        <source>NEW MESSAGE</source>
+        <note>Class = "WKInterfaceLabel"; text = "NEW MESSAGE"; ObjectID = "Gg4-G8-CuZ";</note>
+      </trans-unit>
+      <trans-unit id="IdU-wH-bcW.text">
+        <source>Alert Label</source>
+        <note>Class = "WKInterfaceLabel"; text = "Alert Label"; ObjectID = "IdU-wH-bcW";</note>
+      </trans-unit>
+      <trans-unit id="RRL-5M-wem.text">
+        <source>1 mi</source>
+        <note>Class = "WKInterfaceLabel"; text = "1 mi"; ObjectID = "RRL-5M-wem";</note>
+      </trans-unit>
+      <trans-unit id="Tm2-f6-qzd.text">
+        <source>Lindsay</source>
+        <note>Class = "WKInterfaceLabel"; text = "Lindsay"; ObjectID = "Tm2-f6-qzd";</note>
+      </trans-unit>
+      <trans-unit id="UgS-eF-YuK.text">
+        <source>3</source>
+        <note>Class = "WKInterfaceLabel"; text = "3"; ObjectID = "UgS-eF-YuK";</note>
+      </trans-unit>
+      <trans-unit id="VY4-Zb-aVW.text">
+        <source>Send Message</source>
+        <note>Class = "WKInterfaceLabel"; text = "Send Message"; ObjectID = "VY4-Zb-aVW";</note>
+      </trans-unit>
+      <trans-unit id="VYV-Kc-wVZ.text">
+        <source>Label</source>
+        <note>Class = "WKInterfaceLabel"; text = "Label"; ObjectID = "VYV-Kc-wVZ";</note>
+      </trans-unit>
+      <trans-unit id="Vdz-gP-57k.text">
+        <source>Moment Liked</source>
+        <note>Class = "WKInterfaceLabel"; text = "Moment Liked"; ObjectID = "Vdz-gP-57k";</note>
+      </trans-unit>
+      <trans-unit id="XJd-cm-4SN.text">
+        <source>Let's meet for coffee</source>
+        <note>Class = "WKInterfaceLabel"; text = "Let's meet for coffee"; ObjectID = "XJd-cm-4SN";</note>
+      </trans-unit>
+      <trans-unit id="cdg-ot-gB6.text">
+        <source>New Message</source>
+        <note>Class = "WKInterfaceLabel"; text = "New Message"; ObjectID = "cdg-ot-gB6";</note>
+      </trans-unit>
+      <trans-unit id="e31-Pq-aqL.title">
+        <source> </source>
+        <note>Class = "WKInterfaceController"; title = " "; ObjectID = "e31-Pq-aqL";</note>
+      </trans-unit>
+      <trans-unit id="gMf-Tb-tps.text">
+        <source>Label</source>
+        <note>Class = "WKInterfaceLabel"; text = "Label"; ObjectID = "gMf-Tb-tps";</note>
+      </trans-unit>
+      <trans-unit id="iF4-y7-EqP.text">
+        <source>Label</source>
+        <note>Class = "WKInterfaceLabel"; text = "Label"; ObjectID = "iF4-y7-EqP";</note>
+      </trans-unit>
+      <trans-unit id="jaw-H6-BN5.text">
+        <source>New Match</source>
+        <note>Class = "WKInterfaceLabel"; text = "New Match"; ObjectID = "jaw-H6-BN5";</note>
+      </trans-unit>
+      <trans-unit id="oY8-Ht-zeb.text">
+        <source>Label</source>
+        <note>Class = "WKInterfaceLabel"; text = "Label"; ObjectID = "oY8-Ht-zeb";</note>
+      </trans-unit>
+      <trans-unit id="oe0-Ys-cCe.text">
+        <source>Label</source>
+        <note>Class = "WKInterfaceLabel"; text = "Label"; ObjectID = "oe0-Ys-cCe";</note>
+      </trans-unit>
+      <trans-unit id="osD-Pk-MSh.title">
+        <source>  </source>
+        <note>Class = "WKUserNotificationInterfaceController"; title = "  "; ObjectID = "osD-Pk-MSh";</note>
+      </trans-unit>
+      <trans-unit id="pai-9s-d6x.text">
+        <source>Alert Label</source>
+        <note>Class = "WKInterfaceLabel"; text = "Alert Label"; ObjectID = "pai-9s-d6x";</note>
+      </trans-unit>
+      <trans-unit id="soo-do-l6H.text">
+        <source>R</source>
+        <note>Class = "WKInterfaceLabel"; text = "R"; ObjectID = "soo-do-l6H";</note>
+      </trans-unit>
+      <trans-unit id="ud4-h6-Ith.text">
+        <source>Alert Label</source>
+        <note>Class = "WKInterfaceLabel"; text = "Alert Label"; ObjectID = "ud4-h6-Ith";</note>
+      </trans-unit>
+      <trans-unit id="wzT-Sm-YKF.text">
+        <source>NEW MATCH</source>
+        <note>Class = "WKInterfaceLabel"; text = "NEW MATCH"; ObjectID = "wzT-Sm-YKF";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Tinder WatchKit App/Info.plist" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8A218a"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>Tinder</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>6.1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Tinder WatchKit Extension/Info.plist" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8A218a"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>Tinder</source>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>Tinder</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>6.1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Tinder WatchKit Extension/Localizable.strings" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8A218a"/>
+    </header>
+    <body>
+      <trans-unit id="Getting your messages....">
+        <source>Getting your messages....</source>
+        <note>loading message</note>
+      </trans-unit>
+      <trans-unit id="Like people on your phone. Matches with messages will appear here.">
+        <source>Like people on your phone. Matches with messages will appear here.</source>
+        <note>like people message</note>
+      </trans-unit>
+      <trans-unit id="No Messages">
+        <source>No Messages</source>
+        <note>no matches header</note>
+      </trans-unit>
+      <trans-unit id="Not Logged In">
+        <source>Not Logged In</source>
+        <note>not logged in header</note>
+      </trans-unit>
+      <trans-unit id="Please log into Tinder on your iOS device.\n\nTap here to retry.">
+        <source>Please log into Tinder on your iOS device.
+
+Tap here to retry.</source>
+        <note>not logged in body</note>
+      </trans-unit>
+      <trans-unit id="Reply">
+        <source>Reply</source>
+        <note>Reply</note>
+      </trans-unit>
+      <trans-unit id="Send Message">
+        <source>Send Message</source>
+        <note>Send Message</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Tinder-CI.plist" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8A218a"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>${CUSTOM_PRODUCT_NAME}</source>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>${CUSTOM_PRODUCT_NAME}</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>5.2.0</source>
+      </trans-unit>
+      <trans-unit id="NSLocationWhenInUseUsageDescription">
+        <source>Recommendations will be presented based on your location.</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="matchbox/Tinder-Ad-Test-Info.plist" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8A218a"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>${CUSTOM_PRODUCT_NAME}</source>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>${CUSTOM_PRODUCT_NAME}</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>6.1.0</source>
+      </trans-unit>
+      <trans-unit id="NSLocationWhenInUseUsageDescription">
+        <source>Recommendations will be presented based on your location.</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="matchbox/Tinder-Enterprise-Info.plist" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8A218a"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>${CUSTOM_PRODUCT_NAME}</source>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>${CUSTOM_PRODUCT_NAME}</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>6.1.0</source>
+      </trans-unit>
+      <trans-unit id="NSLocationWhenInUseUsageDescription">
+        <source>Recommendations will be presented based on your location.</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="matchbox/Tinder-EnterpriseAdTest-Info.plist" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8A218a"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>${CUSTOM_PRODUCT_NAME}</source>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>${CUSTOM_PRODUCT_NAME}</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>6.1.0</source>
+      </trans-unit>
+      <trans-unit id="NSLocationWhenInUseUsageDescription">
+        <source>Recommendations will be presented based on your location.</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="matchbox/Tinder-Info.plist" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8A218a"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>${CUSTOM_PRODUCT_NAME}</source>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>${CUSTOM_PRODUCT_NAME}</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>6.1.0</source>
+      </trans-unit>
+      <trans-unit id="NSLocationWhenInUseUsageDescription">
+        <source>Recommendations will be presented based on your location.</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="matchbox/Tinder-Receipt-Validation-Info.plist" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8A218a"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>${CUSTOM_PRODUCT_NAME}</source>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>${CUSTOM_PRODUCT_NAME}</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>6.1.0</source>
+      </trans-unit>
+      <trans-unit id="NSLocationWhenInUseUsageDescription">
+        <source>Recommendations will be presented based on your location.</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="matchbox/en.lproj/Localizable.strings" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8A218a"/>
+    </header>
+    <body>
+      <trans-unit id="  LINK SPOTIFY  ">
+        <source>  LINK SPOTIFY  </source>
+        <note>Text shown in the button inside of the profile preview prompting the user to connect their spotify</note>
+      </trans-unit>
+      <trans-unit id=" and ">
+        <source> and </source>
+        <note>By continuing, you agree to our Terms of Service[[ and ]]Privacy Policy</note>
+      </trans-unit>
+      <trans-unit id="%.0f kilometer away">
+        <source>%.0f kilometer away</source>
+        <note>Preceeded by a one indicating a person is 1 mile away.</note>
+      </trans-unit>
+      <trans-unit id="%.0f kilometers away">
+        <source>%.0f kilometers away</source>
+        <note>Preceeded by a number indicating that a person is a certain number of miles away.</note>
+      </trans-unit>
+      <trans-unit id="%.0f mile away">
+        <source>%.0f mile away</source>
+        <note>Preceeded by a one indicating a person is 1 mile away.</note>
+      </trans-unit>
+      <trans-unit id="%.0f miles away">
+        <source>%.0f miles away</source>
+        <note>Preceeded by a number indicating that a person is a certain number of miles away.</note>
+      </trans-unit>
+      <trans-unit id="%1$@, %2$@">
+        <source>%1$@, %2$@</source>
+        <note>city(=1), state(=2)</note>
+      </trans-unit>
+      <trans-unit id="%1$d MONTH(S) FOR %2$@/%3$@">
+        <source>%1$d MONTH(S) FOR %2$@/%3$@</source>
+      </trans-unit>
+      <trans-unit id="%2$@/%3$@">
+        <source>%2$@/%3$@</source>
+        <note>Price per month for Tinder Plus</note>
+      </trans-unit>
+      <trans-unit id="%@ &amp; %@">
+        <source>%1$@ &amp; %2$@</source>
+        <note>Last 2 names in 'I`m going out with Fred, Bill, Bob &amp; Steve'</note>
+      </trans-unit>
+      <trans-unit id="%@ &amp; %d">
+        <source>%1$@ &amp; %2$d</source>
+        <note>Group description as count</note>
+      </trans-unit>
+      <trans-unit id="%@ &amp; %d other">
+        <source>%1$@ &amp; %2$d other</source>
+        <note>Group description as 'other'</note>
+      </trans-unit>
+      <trans-unit id="%@ &amp; %d others">
+        <source>%1$@ &amp; %2$d others</source>
+        <note>Group description as 'others'</note>
+      </trans-unit>
+      <trans-unit id="%@ &amp; %zd friend">
+        <source>%1$@ &amp; %2$zd friend</source>
+        <note>CORRECT DESCRIPTION FROM PLACEHOLDER</note>
+      </trans-unit>
+      <trans-unit id="%@ &amp; %zd friends">
+        <source>%1$@ &amp; %2$zd friends</source>
+        <note>CORRECT DESCRIPTION FROM PLACEHOLDER</note>
+      </trans-unit>
+      <trans-unit id="%@ &amp; %zd others">
+        <source>%1$@ &amp; %2$zd others</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="%@ &amp; 1 other">
+        <source>%@ &amp; 1 other</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="%@ FRIENDS FOR COMMON CONNECTIONS">
+        <source>%@ FRIENDS FOR COMMON CONNECTIONS</source>
+        <note>Title label, with variable number of friends, i.e. '34 FRIENDS FOR COMMON CONNECTIONS'</note>
+      </trans-unit>
+      <trans-unit id="%@ Remaining">
+        <source>%@ Remaining</source>
+        <note>Time remaining for current boost to end. Example: 09:10:10 Remaining
+   Time remaining for discount to expire. Example: 24:00 remaining</note>
+      </trans-unit>
+      <trans-unit id="%@ Super Liked you">
+        <source>%@ Super Liked you</source>
+        <note>Label on the chat view that indicates who Super Liked you. '&lt;persons name&gt; Super Liked you'</note>
+      </trans-unit>
+      <trans-unit id="%@ Super Liked you on %@">
+        <source>%1$@ Super Liked you on %2$@</source>
+        <note>Chat cell they Super Liked you timestamp message: %date %name. e.g. `Ana Super Liked you on 4/23/16`</note>
+      </trans-unit>
+      <trans-unit id="%@ Super Liked you!">
+        <source>%@ Super Liked you!</source>
+        <note>`Bob Super Liked you!` - title label text</note>
+      </trans-unit>
+      <trans-unit id="%@ added you to a group">
+        <source>%@ added you to a group</source>
+        <note>Name added you to their group, for example 'Joanna added you to their Group'</note>
+      </trans-unit>
+      <trans-unit id="%@ at %@">
+        <source>%1$@ at %2$@</source>
+        <note>eg, (Prodcut manager) at (Tinder)
+   eg, (Product manager) at (Tinder)</note>
+      </trans-unit>
+      <trans-unit id="%@ has Not Updated Tinder">
+        <source>%@ has Not Updated Tinder</source>
+        <note>Title for [name] has not updated Tinder, for example 'Joanna has Not Updated Tinder'</note>
+      </trans-unit>
+      <trans-unit id="%@ liked your moment">
+        <source>%@ liked your moment</source>
+      </trans-unit>
+      <trans-unit id="%@ wants to match with you">
+        <source>%@ wants to match with you</source>
+        <note>New match message, with name</note>
+      </trans-unit>
+      <trans-unit id="%@, %@">
+        <source>%1$@, %2$@</source>
+      </trans-unit>
+      <trans-unit id="%@km.">
+        <source>%@km.</source>
+        <note>&lt;number of kilometers&gt;km.</note>
+      </trans-unit>
+      <trans-unit id="%@mi.">
+        <source>%@mi.</source>
+        <note>&lt;number of miles&gt;mi.</note>
+      </trans-unit>
+      <trans-unit id="%d COMMON CONNECTIONS">
+        <source>%d COMMON CONNECTIONS</source>
+        <note>Title label, will be preceded by a number, i.e. '34 COMMON CONNECTIONS'</note>
+      </trans-unit>
+      <trans-unit id="%d INSTAGRAM PHOTOS">
+        <source>%d INSTAGRAM PHOTOS</source>
+        <note>Title label, will be preceded by a number, i.e. '34 INSTAGRAM PHOTOS'</note>
+      </trans-unit>
+      <trans-unit id="%d INTERESTS">
+        <source>%d INTERESTS</source>
+        <note>Title label, will be preceded by a number, i.e. '34 INTERESTS'</note>
+      </trans-unit>
+      <trans-unit id="%dd">
+        <source>%dd</source>
+        <note>Label text, (number of days)(single character abbreciation for day), i.e. for 3 days, '3d'</note>
+      </trans-unit>
+      <trans-unit id="%dh">
+        <source>%dh</source>
+        <note>Label text, (number of hours)(single letter abbreviation for days), i.e. for 7 hours, '7h'</note>
+      </trans-unit>
+      <trans-unit id="%dm">
+        <source>%dm</source>
+        <note>Label text, (number of minutes)(single letter abbreviation for minutes), i.e. for 13 minutes, '13m'</note>
+      </trans-unit>
+      <trans-unit id="%dw">
+        <source>%dw</source>
+        <note>Label text, (number of weeks of the year)(single character abbreviation for week), i.e. for 12 weeks,  '12w'</note>
+      </trans-unit>
+      <trans-unit id="%zd day(s)">
+        <source>%zd day(s)</source>
+        <note>Number of days until next boost</note>
+      </trans-unit>
+      <trans-unit id="0 top artists">
+        <source>0 top artists</source>
+        <note>Description for selecting zero top artists</note>
+      </trans-unit>
+      <trans-unit id="1 COMMON CONNECTION">
+        <source>1 COMMON CONNECTION</source>
+        <note>Title label, will be for one connection, i.e. '1 COMMON CONNECTION'</note>
+      </trans-unit>
+      <trans-unit id="1 INSTAGRAM PHOTO">
+        <source>1 INSTAGRAM PHOTO</source>
+        <note>Title label, for one item, i.e '1 INSTAGRAM PHOTO'</note>
+      </trans-unit>
+      <trans-unit id="1 INTEREST">
+        <source>1 INTEREST</source>
+        <note>Title label, will be for one interest, i.e. '1 INTEREST'</note>
+      </trans-unit>
+      <trans-unit id="A message failed to send">
+        <source>A message failed to send</source>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="A message to %@ failed">
+        <source>A message to %@ failed</source>
+      </trans-unit>
+      <trans-unit id="A message to %@ failed to send">
+        <source>A message to %@ failed to send</source>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="A photo you uploaded has been removed for violating our Terms of Service.">
+        <source>A photo you uploaded has been removed for violating our Terms of Service.</source>
+        <note>description text for Photo Removed dialog</note>
+      </trans-unit>
+      <trans-unit id="A while ago">
+        <source>A while ago</source>
+      </trans-unit>
+      <trans-unit id="ADD FRIENDS">
+        <source>ADD FRIENDS</source>
+        <note>Button title to invite friends to Tinder</note>
+      </trans-unit>
+      <trans-unit id="ALLOW">
+        <source>ALLOW</source>
+        <note>text for allow button</note>
+      </trans-unit>
+      <trans-unit id="ASK YOUR FRIENDS TO UNLOCK SOCIAL">
+        <source>ASK YOUR FRIENDS TO UNLOCK SOCIAL</source>
+        <note>social Invite Button In group Picker
+   title for button to invite more friends to tinder socail(bottom of friends list)</note>
+      </trans-unit>
+      <trans-unit id="About">
+        <source>About</source>
+        <note>Word used before user's name for bio section</note>
+      </trans-unit>
+      <trans-unit id="Accept or Ignore?">
+        <source>Accept or Ignore?</source>
+        <note>Detail text for incoming match cell</note>
+      </trans-unit>
+      <trans-unit id="Accidentally swiped on someone? Rewind and swipe again.">
+        <source>Accidentally swiped on someone? Rewind and swipe again.</source>
+        <note>Sub title for Rewind Swipe section in T+ Merchandising page</note>
+      </trans-unit>
+      <trans-unit id="Account Deleted">
+        <source>Account Deleted</source>
+        <note>Alertview title when a users account was successfully deleted.</note>
+      </trans-unit>
+      <trans-unit id="Active in %@">
+        <source>Active in %@</source>
+      </trans-unit>
+      <trans-unit id="Add A New Photo">
+        <source>Add A New Photo</source>
+        <note>Confirm button on the add profile image</note>
+      </trans-unit>
+      <trans-unit id="Add New Location…">
+        <source>Add New Location…</source>
+        <note>Passport Add New Location Prompt</note>
+      </trans-unit>
+      <trans-unit id="Add Spotify to Your Profile">
+        <source>Add Spotify to Your Profile</source>
+        <note>Add Spotify Profile Text</note>
+      </trans-unit>
+      <trans-unit id="Add Work">
+        <source>Add Work</source>
+        <note>Edit bio Work cell text</note>
+      </trans-unit>
+      <trans-unit id="Add a new location">
+        <source>Add a new location</source>
+        <note>Passport</note>
+      </trans-unit>
+      <trans-unit id="Add friends to your group to get started.">
+        <source>Add friends to your group to get started.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Add music to your profile!">
+        <source>Add music to your profile!</source>
+        <note>Title Label for spotify dialog, show your music interests.</note>
+      </trans-unit>
+      <trans-unit id="Add school">
+        <source>Add school</source>
+        <note>Settings School cell text</note>
+      </trans-unit>
+      <trans-unit id="Add text, apply filters and draw on your Moments">
+        <source>Add text, apply filters and draw on your Moments</source>
+      </trans-unit>
+      <trans-unit id="Additional Info (Optional)">
+        <source>Additional Info (Optional)</source>
+        <note>Additional Info (Optional)</note>
+      </trans-unit>
+      <trans-unit id="Age Range">
+        <source>Age Range</source>
+        <note>Age settings in Discovery settings</note>
+      </trans-unit>
+      <trans-unit id="Albums">
+        <source>Albums</source>
+        <note>Facebook photo importer title text.</note>
+      </trans-unit>
+      <trans-unit id="All Matches">
+        <source>All Matches</source>
+        <note>Name of default matches group</note>
+      </trans-unit>
+      <trans-unit id="Already Matched">
+        <source>Already Matched</source>
+        <note>already matched</note>
+      </trans-unit>
+      <trans-unit id="An error occurred while requesting a token for SMS verification. Please try again.">
+        <source>An error occurred while requesting a token for SMS verification. Please try again.</source>
+        <note>Alert view message when requesting a token for SMS verification failed</note>
+      </trans-unit>
+      <trans-unit id="Anonymously “Like” or “Pass” on \npeople Tinder Suggests.">
+        <source>Anonymously “Like” or “Pass” on 
+people Tinder Suggests.</source>
+        <note>Intro process title label text</note>
+      </trans-unit>
+      <trans-unit id="App Settings">
+        <source>App Settings</source>
+      </trans-unit>
+      <trans-unit id="Apple Maps">
+        <source>Apple Maps</source>
+        <note>Link to Apple Maps</note>
+      </trans-unit>
+      <trans-unit id="Are You Sure You Want to End This Group?">
+        <source>Are You Sure You Want to End This Group?</source>
+        <note>dialog header for ending a group</note>
+      </trans-unit>
+      <trans-unit id="Are You Sure You Want to Leave This Group?">
+        <source>Are You Sure You Want to Leave This Group?</source>
+        <note>dialog header for leaving a group</note>
+      </trans-unit>
+      <trans-unit id="Are You Sure You Want to Unmatch Group?">
+        <source>Are You Sure You Want to Unmatch Group?</source>
+        <note>Are You Sure You Want to Unmatch Group?</note>
+      </trans-unit>
+      <trans-unit id="Are you going out tonight?">
+        <source>Are you going out tonight?</source>
+        <note>dialog header for asking user whether he/she is going out tonight.</note>
+      </trans-unit>
+      <trans-unit id="Are you sure?">
+        <source>Are you sure?</source>
+        <note>Are you sure (you want to unmatch with this user)?</note>
+      </trans-unit>
+      <trans-unit id="Ask me">
+        <source>Ask me</source>
+        <note>Title for button for permissions request alert</note>
+      </trans-unit>
+      <trans-unit id="BOOST AGAIN">
+        <source>BOOST AGAIN</source>
+        <note>BOOST AGAIN</note>
+      </trans-unit>
+      <trans-unit id="BOOST ME">
+        <source>BOOST ME</source>
+        <note>Title in dialog to start a boost</note>
+      </trans-unit>
+      <trans-unit id="BUY">
+        <source>BUY</source>
+        <note>Buy button for Super Like packages</note>
+      </trans-unit>
+      <trans-unit id="BUY NOW">
+        <source>BUY NOW</source>
+        <note>button title for superlike-purchase buy</note>
+      </trans-unit>
+      <trans-unit id="Back">
+        <source>Back</source>
+        <note>Cancel out of SMS verification</note>
+      </trans-unit>
+      <trans-unit id="Bad Offline Behavior">
+        <source>Bad Offline Behavior</source>
+        <note>Bad Offline Behavior</note>
+      </trans-unit>
+      <trans-unit id="Balanced Recommendations">
+        <source>Balanced Recommendations</source>
+        <note>Balanced Recommendations</note>
+      </trans-unit>
+      <trans-unit id="Be the top profile in your area for %zd minute(s) and get more matches">
+        <source>Be the top profile in your area for %zd minute(s) and get more matches</source>
+        <note>Be the top profile in your area for %zd minute(s) and get more matches</note>
+      </trans-unit>
+      <trans-unit id="Best Photo">
+        <source>Best Photo</source>
+        <note>Best Photo - of optimized results</note>
+      </trans-unit>
+      <trans-unit id="Birthdate">
+        <source>Birthdate</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Blend">
+        <source>Blend</source>
+      </trans-unit>
+      <trans-unit id="Block">
+        <source>Block</source>
+        <note>Button title revealed after sliding the match cell to the left</note>
+      </trans-unit>
+      <trans-unit id="Boost">
+        <source>Boost</source>
+        <note>Singular boost (==1)</note>
+      </trans-unit>
+      <trans-unit id="Boost is Over">
+        <source>Boost is Over</source>
+        <note>Boost is Over</note>
+      </trans-unit>
+      <trans-unit id="Boosts">
+        <source>Boosts</source>
+        <note>Plural boosts (&gt; 1)</note>
+      </trans-unit>
+      <trans-unit id="Bug fixes and minor performance improvements">
+        <source>Bug fixes and minor performance improvements</source>
+      </trans-unit>
+      <trans-unit id="Buy %@ Super Likes">
+        <source>Buy %@ Super Likes</source>
+        <note>plural super like package button prompt</note>
+      </trans-unit>
+      <trans-unit id="Buy %@ Super Likes?">
+        <source>Buy %@ Super Likes?</source>
+        <note>dialog title asking for confirmation in buying a quantiy of super likes, for example `Buy 5 Super Likes?` `Buy 30 Super Likes?`</note>
+      </trans-unit>
+      <trans-unit id="Buy 1 Super Like">
+        <source>Buy 1 Super Like</source>
+        <note>single super like package button prompt</note>
+      </trans-unit>
+      <trans-unit id="Buy 1 Super Like?">
+        <source>Buy 1 Super Like?</source>
+        <note>dialog title asking for confirmation in buying 1 super like</note>
+      </trans-unit>
+      <trans-unit id="By continuing, you agree to our ">
+        <source>By continuing, you agree to our </source>
+        <note>[[By continuing, you agree to our ]]Terms prompt and Privacy Policy</note>
+      </trans-unit>
+      <trans-unit id="CANCEL">
+        <source>CANCEL</source>
+        <note>button text for canceling photo crop
+   button: do not leave/disband group
+   CANCEL
+   cancel button on Tinder Plus paywall
+   dismiss underage ban dialog
+   Inactive title for Group Create button
+   text for cancel button</note>
+      </trans-unit>
+      <trans-unit id="CONTACT US">
+        <source>CONTACT US</source>
+        <note>Contact Us</note>
+      </trans-unit>
+      <trans-unit id="CREATE A NEW GROUP">
+        <source>CREATE A NEW GROUP</source>
+        <note>Button title to start group</note>
+      </trans-unit>
+      <trans-unit id="Call phone">
+        <source>Call phone</source>
+        <note>Title for button to call</note>
+      </trans-unit>
+      <trans-unit id="Camera Access">
+        <source>Camera Access</source>
+        <note>title text for Camera Roll Access dialog on iOS 7</note>
+      </trans-unit>
+      <trans-unit id="Camera Roll">
+        <source>Camera Roll</source>
+        <note>menu option to add photo from camera roll</note>
+      </trans-unit>
+      <trans-unit id="Can you tell us how we could improve?">
+        <source>Can you tell us how we could improve?</source>
+        <note>Title for negative app rating response</note>
+      </trans-unit>
+      <trans-unit id="Can't Access Photo">
+        <source>Can't Access Photo</source>
+        <note>Alertview title when there is an error trying to select a photo from the facebook photo picker.</note>
+      </trans-unit>
+      <trans-unit id="Can't activate Tinder Plus for the current Tinder user. Please Contact Customer Service.">
+        <source>Can't activate Tinder Plus for the current Tinder user. Please Contact Customer Service.</source>
+        <note>Can't activate Tinder Plus for the current Tinder user. Please Contact Customer Service.</note>
+      </trans-unit>
+      <trans-unit id="Can't connect Instagram">
+        <source>Can't connect Instagram</source>
+        <note>Can't connect Instagram</note>
+      </trans-unit>
+      <trans-unit id="Can't connect to the App Store">
+        <source>Can't connect to the App Store</source>
+        <note>Can't connect to the App Store</note>
+      </trans-unit>
+      <trans-unit id="Can't disconnect Instagram">
+        <source>Can't disconnect Instagram</source>
+        <note>Can't disconnect Instagram</note>
+      </trans-unit>
+      <trans-unit id="Can't restore Tinder Plus for the current Tinder user. Please Contact Customer Service.">
+        <source>Can't restore Tinder Plus for the current Tinder user. Please Contact Customer Service.</source>
+        <note>Can't restore Tinder Plus for the current Tinder user. Please Contact Customer Service.</note>
+      </trans-unit>
+      <trans-unit id="Cancel">
+        <source>Cancel</source>
+        <note>Actionsheet close button for a failed message.
+   Alertview close button for liking a person.
+   Button to close the photo picker view.
+   cancel
+   Cancel
+   Cancel Button
+   Cancel button for the address link action sheet.
+   Cancel button for the url link action sheet.
+   Cancel button of the Not intersted? Alertview that asks if you are sure you want to dislike someone.
+   Cancel button on the Like? Alertview that asks if you are sure you want to like someone.
+   Cancel button text for app rating, writing feedback
+   Cancel for ActionController
+   Close the phone number region picker
+   menu option to cancel out of photo source selection
+   title on button to dismiss choose anthem</note>
+      </trans-unit>
+      <trans-unit id="Can’t connect Instagram">
+        <source>Can’t connect Instagram</source>
+        <note>Can’t connect Instagram</note>
+      </trans-unit>
+      <trans-unit id="Capture and share photos with your matches">
+        <source>Capture and share photos with your matches</source>
+      </trans-unit>
+      <trans-unit id="Change">
+        <source>Change</source>
+        <note>Change school selection
+   Change work selection</note>
+      </trans-unit>
+      <trans-unit id="Change Your Location">
+        <source>Change Your Location</source>
+        <note>Passport to change your location and see new Recommendations</note>
+      </trans-unit>
+      <trans-unit id="Change your Location">
+        <source>Change your Location</source>
+      </trans-unit>
+      <trans-unit id="Chat with your matches inside \nthe app.">
+        <source>Chat with your matches inside 
+the app.</source>
+        <note>Intro process title label text</note>
+      </trans-unit>
+      <trans-unit id="Check connection and try again">
+        <source>Check connection and try again</source>
+        <note>Check connection and try again</note>
+      </trans-unit>
+      <trans-unit id="Check out Tinder... it shows you who likes you nearby!">
+        <source>Check out Tinder... it shows you who likes you nearby!</source>
+        <note>Message displayed in the tell your friends message.</note>
+      </trans-unit>
+      <trans-unit id="Choose">
+        <source>Choose</source>
+        <note>Button to choose a photo in the facebook photo picker.
+   Select the new phone number region</note>
+      </trans-unit>
+      <trans-unit id="Choose Anthem">
+        <source>Choose Anthem</source>
+        <note>Title shown when choosing an anthem</note>
+      </trans-unit>
+      <trans-unit id="Choose Theme Song">
+        <source>Choose Theme Song</source>
+        <note>Header for the Choose Theme Song</note>
+      </trans-unit>
+      <trans-unit id="Choose a New Location">
+        <source>Choose a New Location</source>
+      </trans-unit>
+      <trans-unit id="Choose a region">
+        <source>Choose a region</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Choose anthem">
+        <source>Choose anthem</source>
+        <note>Settings anthem cell text</note>
+      </trans-unit>
+      <trans-unit id="Choose at least 1 friend to continue">
+        <source>Choose at least 1 friend to continue</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Choose the country code for your mobile number">
+        <source>Choose the country code for your mobile number</source>
+        <note>Title for choosing the region</note>
+      </trans-unit>
+      <trans-unit id="Choose your Tinder Anthem or connect Spotify to show the artists you listen to the most.">
+        <source>Choose your Tinder Anthem or connect Spotify to show the artists you listen to the most.</source>
+        <note>Detail Label for spotify dialog to explain why user neede to connect to spotify.</note>
+      </trans-unit>
+      <trans-unit id="Claim yours">
+        <source>Claim yours</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Complete Your Profile">
+        <source>Complete Your Profile</source>
+        <note>Age and gender roadblock header.</note>
+      </trans-unit>
+      <trans-unit id="Confirm">
+        <source>Confirm</source>
+        <note>Confirm button title text for roadblock.</note>
+      </trans-unit>
+      <trans-unit id="Connect">
+        <source>Connect</source>
+        <note>Button label, to connect to Instagram</note>
+      </trans-unit>
+      <trans-unit id="Connect Instagram">
+        <source>Connect Instagram</source>
+        <note>Connect Instagram</note>
+      </trans-unit>
+      <trans-unit id="Control Who Sees You">
+        <source>Control Who Sees You</source>
+        <note>Control Who Sees You</note>
+      </trans-unit>
+      <trans-unit id="Control Who You See">
+        <source>Control Who You See</source>
+        <note>Control Who You See</note>
+      </trans-unit>
+      <trans-unit id="Control Your Profile">
+        <source>Control Your Profile</source>
+        <note>Control Your Profile</note>
+      </trans-unit>
+      <trans-unit id="Copy Address">
+        <source>Copy Address</source>
+        <note>Text in the bubble that appears when you long press a detected address in a chat view</note>
+      </trans-unit>
+      <trans-unit id="Copy Link">
+        <source>Copy Link</source>
+        <note>Text in the bubble that appears when you long press a detected URL in a chat view</note>
+      </trans-unit>
+      <trans-unit id="Copy Link to GIF">
+        <source>Copy Link to GIF</source>
+        <note>Text in the bubble that appears when you long press a GIF in a chat view</note>
+      </trans-unit>
+      <trans-unit id="Copy Phone Number">
+        <source>Copy Phone Number</source>
+        <note>Text in the bubble that appears when you long press a detected phone number in a chat view</note>
+      </trans-unit>
+      <trans-unit id="Could Not Create Group">
+        <source>Could Not Create Group</source>
+        <note>Alert title for error creating group</note>
+      </trans-unit>
+      <trans-unit id="Could Not End Group">
+        <source>Could Not End Group</source>
+        <note>error title for ending group failure</note>
+      </trans-unit>
+      <trans-unit id="Could Not Extend Group">
+        <source>Could Not Extend Group</source>
+        <note>error title when failed to extend group lifetime</note>
+      </trans-unit>
+      <trans-unit id="Could Not Get Friends from Facebook">
+        <source>Could Not Get Friends from Facebook</source>
+        <note>Alert title for error getitng friends</note>
+      </trans-unit>
+      <trans-unit id="Could Not Get Photo from Facebook">
+        <source>Could Not Get Photo from Facebook</source>
+        <note>title text for Facebook photo upload error dialog</note>
+      </trans-unit>
+      <trans-unit id="Could Not Leave Group">
+        <source>Could Not Leave Group</source>
+        <note>error title for leaving group failure</note>
+      </trans-unit>
+      <trans-unit id="Could Not Load Group">
+        <source>Could Not Load Group</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Could Not Mute Chat">
+        <source>Could Not Mute Chat</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Could Not Unmatch Group">
+        <source>Could Not Unmatch Group</source>
+        <note>error title for unmatch group failure</note>
+      </trans-unit>
+      <trans-unit id="Could Not Unmatch User">
+        <source>Could Not Unmatch User</source>
+        <note>error title for unmatch user failure</note>
+      </trans-unit>
+      <trans-unit id="Could Not Unmute Chat">
+        <source>Could Not Unmute Chat</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Could Not Update Status">
+        <source>Could Not Update Status</source>
+        <note>error title when failed to update group status
+   Title in status-contains-links error dialog</note>
+      </trans-unit>
+      <trans-unit id="Could not get work information from Facebook.">
+        <source>Could not get work information from Facebook.</source>
+        <note>Error description when the user doesn't allow us to have work history information from facebook.</note>
+      </trans-unit>
+      <trans-unit id="Couldn't Delete Account">
+        <source>Couldn't Delete Account</source>
+        <note>Alertview title when a users account could not be deleted.</note>
+      </trans-unit>
+      <trans-unit id="Couldn't Log Out">
+        <source>Couldn't Log Out</source>
+        <note>Actionsheet title when there was an error trying to logout.</note>
+      </trans-unit>
+      <trans-unit id="Couldn't connect">
+        <source>Couldn't connect</source>
+        <note>Alert title for failed authentication when internet is unreachable
+   Generic error title for Facebook connection issues</note>
+      </trans-unit>
+      <trans-unit id="Create a group to get started">
+        <source>Create a group to get started</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Create a public Username. Share your Username. Have people all over the world swipe you on Tinder.">
+        <source>Create a public Username. Share your Username. Have people all over the world swipe you on Tinder.</source>
+        <note>used to introduce the user to the concept of having a tinder username</note>
+      </trans-unit>
+      <trans-unit id="Created in Los Angeles">
+        <source>Created in Los Angeles</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Current Location">
+        <source>Current Location</source>
+        <note>Header in Location settings</note>
+      </trans-unit>
+      <trans-unit id="Current School">
+        <source>Current School</source>
+      </trans-unit>
+      <trans-unit id="Current Work">
+        <source>Current Work</source>
+        <note>Header for the Current Work table view</note>
+      </trans-unit>
+      <trans-unit id="DEFAULT">
+        <source>DEFAULT</source>
+      </trans-unit>
+      <trans-unit id="DISCOVERY SETTINGS">
+        <source>DISCOVERY SETTINGS</source>
+        <note>Discover Settings</note>
+      </trans-unit>
+      <trans-unit id="DONE">
+        <source>DONE</source>
+        <note>DONE</note>
+      </trans-unit>
+      <trans-unit id="Delete">
+        <source>Delete</source>
+        <note>Actionsheet button title for deleting a message if we failed to send it.</note>
+      </trans-unit>
+      <trans-unit id="Delete Account">
+        <source>Delete Account</source>
+        <note>Delete Account button label
+   Delete account button title in the delete account actionsheet.</note>
+      </trans-unit>
+      <trans-unit id="Delete My ID">
+        <source>Delete My ID</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Delete Photo">
+        <source>Delete Photo</source>
+        <note>delete photo</note>
+      </trans-unit>
+      <trans-unit id="Deleting the image failed. Sorry! Try again.">
+        <source>Deleting the image failed. Sorry! Try again.</source>
+        <note>Alertview message when a image failed to delete.</note>
+      </trans-unit>
+      <trans-unit id="Deleting...">
+        <source>Deleting...</source>
+        <note>Progress HUD displayed when a user is trying to delete their account.</note>
+      </trans-unit>
+      <trans-unit id="Disconnect">
+        <source>Disconnect</source>
+        <note>Disconnect</note>
+      </trans-unit>
+      <trans-unit id="Disconnect Instagram">
+        <source>Disconnect Instagram</source>
+        <note>Disconnect Instagram</note>
+      </trans-unit>
+      <trans-unit id="Disconnect Spotify">
+        <source>Disconnect Spotify</source>
+        <note>Disconnect Spotify selection text</note>
+      </trans-unit>
+      <trans-unit id="Disconnecting Instagram...">
+        <source>Disconnecting Instagram...</source>
+        <note>Disconnecting Instagram</note>
+      </trans-unit>
+      <trans-unit id="Discover People In">
+        <source>Discover People In</source>
+        <note>Discover People In &lt;table of location names&gt;. Passport view to select a location to travel to.</note>
+      </trans-unit>
+      <trans-unit id="Discovery Blends">
+        <source>Discovery Blends</source>
+        <note>Recs Blends</note>
+      </trans-unit>
+      <trans-unit id="Discovery Settings">
+        <source>Discovery Settings</source>
+      </trans-unit>
+      <trans-unit id="Distance">
+        <source>Distance</source>
+      </trans-unit>
+      <trans-unit id="Distance, age and more">
+        <source>Distance, age and more</source>
+      </trans-unit>
+      <trans-unit id="Do more with Plus:">
+        <source>Do more with Plus:</source>
+      </trans-unit>
+      <trans-unit id="Don't Show My Age">
+        <source>Don't Show My Age</source>
+        <note>Don't Show My Age</note>
+      </trans-unit>
+      <trans-unit id="Don't Show My Distance">
+        <source>Don't Show My Distance</source>
+        <note>Don't Show My Distance</note>
+      </trans-unit>
+      <trans-unit id="Don't lose %@! Upgrade to Tinder Plus to get more Super Likes now.">
+        <source>Don't lose %@! Upgrade to Tinder Plus to get more Super Likes now.</source>
+        <note>`Don't lose &lt;FIRST NAME&gt;! Upgrade to Tinder Plus to get more Super Likes now.` - detail text</note>
+      </trans-unit>
+      <trans-unit id="Don't see who you're looking for?">
+        <source>Don't see who you're looking for?</source>
+        <note>Don't see who you're looking for?
+   title prompt in firend picker(bottom of friends list) to invite more people</note>
+      </trans-unit>
+      <trans-unit id="Done">
+        <source>Done</source>
+        <note>Close Map Preview
+   Done
+   Done button in nav bar
+   title on button to finish selecting top artists
+   title on button to leave profile edit mode</note>
+      </trans-unit>
+      <trans-unit id="Don’t want to wait? Get more now.">
+        <source>Don’t want to wait? Get more now.</source>
+        <note>Super Like Packages Paywall Subtitle</note>
+      </trans-unit>
+      <trans-unit id="Dragging a picture to the left indicates you're not interested in %@.">
+        <source>Dragging a picture to the left indicates you're not interested in %@.</source>
+        <note>Alertview message displayed when you dislike a person. 'Dragging a picture to the left indicates that you're not interested in &lt;persons name&gt;'</note>
+      </trans-unit>
+      <trans-unit id="Dragging a picture to the left indicates you're not interested in them.">
+        <source>Dragging a picture to the left indicates you're not interested in them.</source>
+        <note>Alertview message displayed when you dislike a GROUP</note>
+      </trans-unit>
+      <trans-unit id="Dragging a picture to the right indicates you liked %@.">
+        <source>Dragging a picture to the right indicates you liked %@.</source>
+        <note>Alertview message displayed when you like someone.</note>
+      </trans-unit>
+      <trans-unit id="Dragging a picture to the right indicates you liked them.">
+        <source>Dragging a picture to the right indicates you liked them.</source>
+        <note>Alertview message displayed when you like a GROUP.</note>
+      </trans-unit>
+      <trans-unit id="EDIT PROFILE">
+        <source>EDIT PROFILE</source>
+        <note>Button in Home Menu for opening edit profile</note>
+      </trans-unit>
+      <trans-unit id="ENABLE TINDER SOCIAL">
+        <source>ENABLE TINDER SOCIAL</source>
+        <note>Opt-in to Tinder Social</note>
+      </trans-unit>
+      <trans-unit id="END GROUP">
+        <source>END GROUP</source>
+        <note>Button title to end (disband) group
+   button to disband group</note>
+      </trans-unit>
+      <trans-unit id="EXTEND">
+        <source>EXTEND</source>
+        <note>Button title to extend group</note>
+      </trans-unit>
+      <trans-unit id="Edit Info">
+        <source>Edit Info</source>
+        <note>Edit profile button title
+   Title shown when editing your profile</note>
+      </trans-unit>
+      <trans-unit id="Edit your music in your profile settings">
+        <source>Edit your music in your profile settings</source>
+        <note>Edit your music in your profile settings</note>
+      </trans-unit>
+      <trans-unit id="Enable Discovery">
+        <source>Enable Discovery</source>
+        <note>Button for discovery-off card
+   Title to enable discovery</note>
+      </trans-unit>
+      <trans-unit id="Enable Discovery to meet new people">
+        <source>Enable Discovery to meet new people</source>
+        <note>Description for discovery-off card</note>
+      </trans-unit>
+      <trans-unit id="End">
+        <source>End</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Enjoy a completely ad free experience.">
+        <source>Enjoy a completely ad free experience.</source>
+        <note>Enjoy a completely ad free experience.</note>
+      </trans-unit>
+      <trans-unit id="Enter Code">
+        <source>Enter Code</source>
+        <note>Title for SMS verification enter code screen</note>
+      </trans-unit>
+      <trans-unit id="Enter the SMS verification code below\nthat was sent to your mobile phone:">
+        <source>Enter the SMS verification code below
+that was sent to your mobile phone:</source>
+        <note>Description for enter code screen</note>
+      </trans-unit>
+      <trans-unit id="Error">
+        <source>Error</source>
+        <note>Error
+   Error for error when requesting a share link for rec</note>
+      </trans-unit>
+      <trans-unit id="Error Code: %@">
+        <source>Error Code: %@</source>
+        <note>Error code shown when login fails</note>
+      </trans-unit>
+      <trans-unit id="Error playing Song">
+        <source>Error playing Song</source>
+        <note>Faliure Message when there is an error tryiping playing the track</note>
+      </trans-unit>
+      <trans-unit id="Error. Please try again later.">
+        <source>Error. Please try again later.</source>
+        <note>Error. Please try again later.
+   message for generic unhandled error from Facebook authentication
+   String when the user has messed with their device time</note>
+      </trans-unit>
+      <trans-unit id="Expired">
+        <source>Expired</source>
+        <note>expired</note>
+      </trans-unit>
+      <trans-unit id="Expired Match">
+        <source>Expired Match</source>
+        <note>Expired Match message in match list</note>
+      </trans-unit>
+      <trans-unit id="Extend">
+        <source>Extend</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Extend Group">
+        <source>Extend Group</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="FAQ, contact, and more">
+        <source>FAQ, contact, and more</source>
+      </trans-unit>
+      <trans-unit id="Facebook">
+        <source>Facebook</source>
+        <note>menu option to add photo from facebook</note>
+      </trans-unit>
+      <trans-unit id="Facebook App Removed">
+        <source>Facebook App Removed</source>
+        <note>Alertview title when user removed tinder from their facebook app center.</note>
+      </trans-unit>
+      <trans-unit id="Facebook Login Cancelled">
+        <source>Facebook Login Cancelled</source>
+        <note>login alert view title</note>
+      </trans-unit>
+      <trans-unit id="Facebook Permissions">
+        <source>Facebook Permissions</source>
+        <note>Title for alert when we need to ask the user for extra permissions</note>
+      </trans-unit>
+      <trans-unit id="Facebook password changed">
+        <source>Facebook password changed</source>
+        <note>Alertview title when a user changed their password on facebook.</note>
+      </trans-unit>
+      <trans-unit id="Failed to report user.\nPlease try again later.">
+        <source>Failed to report user.
+Please try again later.</source>
+        <note>Failed to report user.\nPlease try again later.</note>
+      </trans-unit>
+      <trans-unit id="Feels Like Spam">
+        <source>Feels Like Spam</source>
+        <note>Feels Like Spam</note>
+      </trans-unit>
+      <trans-unit id="Female">
+        <source>Female</source>
+        <note>gender: Female</note>
+      </trans-unit>
+      <trans-unit id="Friends">
+        <source>Friends</source>
+      </trans-unit>
+      <trans-unit id="Friends on Tinder Social">
+        <source>Friends on Tinder Social</source>
+        <note>Button title to invite friends to Tinder, English only</note>
+      </trans-unit>
+      <trans-unit id="Friends who unlocked Tinder Social">
+        <source>Friends who unlocked Tinder Social</source>
+        <note>Going Out Friends List Header Text</note>
+      </trans-unit>
+      <trans-unit id="Friends with your Tinder ID can request to chat and see your moments.">
+        <source>Friends with your Tinder ID can request to chat and see your moments.</source>
+      </trans-unit>
+      <trans-unit id="GET BOOST">
+        <source>GET BOOST</source>
+        <note>Boost Paywall purchase button title</note>
+      </trans-unit>
+      <trans-unit id="GET MY MOMENTS">
+        <source>GET MY MOMENTS</source>
+      </trans-unit>
+      <trans-unit id="GET PLUS">
+        <source>GET PLUS</source>
+        <note>GET (tinder) PLUS subscription (alt. BUY Tinder PLUS)</note>
+      </trans-unit>
+      <trans-unit id="GET TINDER PLUS">
+        <source>GET TINDER PLUS</source>
+        <note>Alternate T+ settings button title for non-subscriber
+   GET TINDER PLUS
+   Title for button in home action bar</note>
+      </trans-unit>
+      <trans-unit id="GO OUT AGAIN">
+        <source>GO OUT AGAIN</source>
+        <note>button text for creating a group of friends after have created a group before and it expiring</note>
+      </trans-unit>
+      <trans-unit id="GO TO SETTINGS">
+        <source>GO TO SETTINGS</source>
+        <note>button text for sending user to device settings</note>
+      </trans-unit>
+      <trans-unit id="GOT IT">
+        <source>GOT IT</source>
+        <note>GOT IT</note>
+      </trans-unit>
+      <trans-unit id="GOT IT!">
+        <source>GOT IT!</source>
+        <note>Action button title for Introduction to Boost</note>
+      </trans-unit>
+      <trans-unit id="GROUP EXPIRED">
+        <source>GROUP EXPIRED</source>
+        <note>badge text showing up over avatars of friends - letting user know that their group has expired</note>
+      </trans-unit>
+      <trans-unit id="Gender">
+        <source>Gender</source>
+        <note>Header for the Gender table view
+   Settings show cell text.</note>
+      </trans-unit>
+      <trans-unit id="Get 1 Free Boost a Week">
+        <source>Get 1 Free Boost a Week</source>
+        <note>Get 1 Free Boost a Week</note>
+      </trans-unit>
+      <trans-unit id="Get 5 Super Likes per day and increase your chance at a match by 3 times.">
+        <source>Get 5 Super Likes per day and increase your chance at a match by 3 times.</source>
+        <note>Sub title for Extra Super Like section in T+ Merchandising page</note>
+      </trans-unit>
+      <trans-unit id="Get 5 more in…">
+        <source>Get 5 more in…</source>
+        <note>Super like countdown title</note>
+      </trans-unit>
+      <trans-unit id="Get Extra Super Likes">
+        <source>Get Extra Super Likes</source>
+        <note>Get Extra Super Likes</note>
+      </trans-unit>
+      <trans-unit id="Get Matches Faster. Try Boost!">
+        <source>Get Matches Faster. Try Boost!</source>
+        <note>Tooltip title for Boost button if they haven't used it</note>
+      </trans-unit>
+      <trans-unit id="Get More Boosts">
+        <source>Get More Boosts</source>
+        <note>Get More Boosts</note>
+      </trans-unit>
+      <trans-unit id="Get More Super Likes">
+        <source>Get More Super Likes</source>
+        <note>Get More Super Likes</note>
+      </trans-unit>
+      <trans-unit id="Get Noticed by %@">
+        <source>Get Noticed by %@</source>
+      </trans-unit>
+      <trans-unit id="Get Plus for %@/mo">
+        <source>Get Plus for %@/mo</source>
+      </trans-unit>
+      <trans-unit id="Get Super Likes">
+        <source>Get Super Likes</source>
+        <note>Super Like Upsell</note>
+      </trans-unit>
+      <trans-unit id="Get Swiping">
+        <source>Get Swiping</source>
+        <note>No matches title</note>
+      </trans-unit>
+      <trans-unit id="Get Tinder Plus">
+        <source>Get Tinder Plus</source>
+        <note>Get Tinder Plus button text in merch page banenr
+   Settings cell info text
+   Title for T+ paywall
+   Title Label for new Subscription Packages Paywall</note>
+      </trans-unit>
+      <trans-unit id="Get Unlimited Likes">
+        <source>Get Unlimited Likes</source>
+      </trans-unit>
+      <trans-unit id="Get Unlimited Likes\nwith Tinder Plus">
+        <source>Get Unlimited Likes
+with Tinder Plus</source>
+        <note>Get Unlimited Likes\nwith Tinder Plus [if 'unlimited likes' is in the first line of the translation, use 1 '\n' if it's in the 2nd line, use 2: '\n\n']</note>
+      </trans-unit>
+      <trans-unit id="Get Unlimited Right Swipes &amp; 5 Super Likes a day. One time exclusive offer.">
+        <source>Get Unlimited Right Swipes &amp; 5 Super Likes a day. One time exclusive offer.</source>
+        <note>Get Unlimited Right Swipes &amp; 5 Super Likes a day. One time exclusive offer.</note>
+      </trans-unit>
+      <trans-unit id="Get a Job, hippy">
+        <source>Get a Job, hippy</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Get more likes in:">
+        <source>Get more likes in:</source>
+        <note>User Can Continue Liking After This Much time Has Passed: (time)</note>
+      </trans-unit>
+      <trans-unit id="Get noticed by the people you really want to meet. Super Liking people helps you stand out and get more matches.">
+        <source>Get noticed by the people you really want to meet. Super Liking people helps you stand out and get more matches.</source>
+        <note>Get noticed by the people you really want to meet. Super Liking people helps you stand out and get more matches.</note>
+      </trans-unit>
+      <trans-unit id="Get one free Boost a week!">
+        <source>Get one free Boost a week!</source>
+        <note>Get one free Boost a week!</note>
+      </trans-unit>
+      <trans-unit id="Get powerful Control Features, Passport &amp; more. One time exclusive offer.">
+        <source>Get powerful Control Features, Passport &amp; more. One time exclusive offer.</source>
+        <note>Get powerful control features, Passport &amp; more. One time exclusive offer.</note>
+      </trans-unit>
+      <trans-unit id="Getting Facebook permissions.">
+        <source>Getting Facebook permissions.</source>
+        <note>Progress HUD displayed when you are getting additional permissions from facebook, namely work history</note>
+      </trans-unit>
+      <trans-unit id="Getting your messages....">
+        <source>Getting your messages....</source>
+      </trans-unit>
+      <trans-unit id="Give Us Feedback">
+        <source>Give Us Feedback</source>
+        <note>Settings menu item title text for review/rating</note>
+      </trans-unit>
+      <trans-unit id="Give me 5 Super Likes per day">
+        <source>Give me 5 Super Likes per day</source>
+        <note>Give me 5 Super Likes per day</note>
+      </trans-unit>
+      <trans-unit id="Give me one boost every week">
+        <source>Give me one boost every week</source>
+        <note>Give me one boost every week</note>
+      </trans-unit>
+      <trans-unit id="Give me the ability to like as many people as I want">
+        <source>Give me the ability to like as many people as I want</source>
+        <note>Give me the ability to like as many people as I want</note>
+      </trans-unit>
+      <trans-unit id="Give me the ability to rewind my last swipe">
+        <source>Give me the ability to rewind my last swipe</source>
+        <note>Give me the ability to rewind my last swipe</note>
+      </trans-unit>
+      <trans-unit id="Go back and swipe again">
+        <source>Go back and swipe again</source>
+        <note>Go back and change a swipe</note>
+      </trans-unit>
+      <trans-unit id="Go out again">
+        <source>Go out again</source>
+        <note>Action button for group expired modal</note>
+      </trans-unit>
+      <trans-unit id="Go to %@">
+        <source>Go to %@</source>
+        <note>Go to &lt;City / Locality&gt;</note>
+      </trans-unit>
+      <trans-unit id="Going Out: (Active %@)">
+        <source>Going Out: (Active %@)</source>
+        <note>Going out label with 'last active' format: (# min ago)</note>
+      </trans-unit>
+      <trans-unit id="Going out tonight?">
+        <source>Going out tonight?</source>
+        <note>dialog header for starting a group
+   going out tonight banner view header text
+   not in a group &amp; no groups near me title text
+   title text for teaser suggesting user to create a group</note>
+      </trans-unit>
+      <trans-unit id="Going out with friends? Create a group to connect with other groups who are also going out.">
+        <source>Going out with friends? Create a group to connect with other groups who are also going out.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Google Maps">
+        <source>Google Maps</source>
+        <note>Link to Google Maps</note>
+      </trans-unit>
+      <trans-unit id="Group expires soon">
+        <source>Group expires soon</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="HOW">
+        <source>HOW</source>
+      </trans-unit>
+      <trans-unit id="Have fun swiping">
+        <source>Have fun swiping</source>
+        <note>Have fun swiping</note>
+      </trans-unit>
+      <trans-unit id="Help &amp; Support">
+        <source>Help &amp; Support</source>
+        <note>Settings cell title for FAQ</note>
+      </trans-unit>
+      <trans-unit id="Help us make your experience better">
+        <source>Help us make your experience better</source>
+      </trans-unit>
+      <trans-unit id="Hide Ads">
+        <source>Hide Ads</source>
+        <note>Hide Ads</note>
+      </trans-unit>
+      <trans-unit id="Hide Advertisements">
+        <source>Hide Advertisements</source>
+        <note>Rewind Last Swipe</note>
+      </trans-unit>
+      <trans-unit id="How would you rate Tinder?">
+        <source>How would you rate Tinder?</source>
+        <note>Title for initial app rating prompt</note>
+      </trans-unit>
+      <trans-unit id="I Am">
+        <source>I Am</source>
+        <note>title in profile select gender view</note>
+      </trans-unit>
+      <trans-unit id="I Promise.">
+        <source>I Promise.</source>
+        <note>I Promise (to Stop with Bad Behavior).</note>
+      </trans-unit>
+      <trans-unit id="I don't have Facebook">
+        <source>I don't have Facebook</source>
+        <note>I don't have Facebook</note>
+      </trans-unit>
+      <trans-unit id="I don't want an anthem">
+        <source>I don't want an anthem</source>
+        <note>Opt out spotify anthem selection text</note>
+      </trans-unit>
+      <trans-unit id="I just got my %@ match on Tinder!">
+        <source>I just got my %@ match on Tinder!</source>
+        <note>Message when telling friends you just got a new match</note>
+      </trans-unit>
+      <trans-unit id="I understand. It won't happen again.">
+        <source>I understand. It won't happen again.</source>
+        <note>I understand. It won't happen again.</note>
+      </trans-unit>
+      <trans-unit id="I will not be shown to friends">
+        <source>I will not be shown to friends</source>
+        <note>I will not be shown to friends</note>
+      </trans-unit>
+      <trans-unit id="I'LL WAIT">
+        <source>I'LL WAIT</source>
+        <note>button title for superlike-purchase cancel
+   I'LL WAIT</note>
+      </trans-unit>
+      <trans-unit id="I'M GOING OUT">
+        <source>I'M GOING OUT</source>
+        <note>button text for action alowing user to create a group
+   create group button
+   User is going out, Start creating group.
+   User is going out. Opt in automatically if not opted in and start creating group.</note>
+      </trans-unit>
+      <trans-unit id="I'M GOING OUT WITH">
+        <source>I'M GOING OUT WITH</source>
+        <note>Going Out Active Bottom Button Picker Text</note>
+      </trans-unit>
+      <trans-unit id="I'M GOING OUT WITH %@">
+        <source>I'M GOING OUT WITH %@</source>
+        <note>Going Out Active Bottom Button Picker Text</note>
+      </trans-unit>
+      <trans-unit id="I'M GOING OUT WITH\n">
+        <source>I'M GOING OUT WITH
+</source>
+        <note>Active title for Group Start button</note>
+      </trans-unit>
+      <trans-unit id="I'm trending on Tinder!">
+        <source>I'm trending on Tinder!</source>
+      </trans-unit>
+      <trans-unit id="INSTAGRAM PHOTOS">
+        <source>INSTAGRAM PHOTOS</source>
+        <note>Title label, 'INSTAGRAM PHOTOS'</note>
+      </trans-unit>
+      <trans-unit id="Identifying Location...">
+        <source>Identifying Location...</source>
+        <note>Identifying Location...</note>
+      </trans-unit>
+      <trans-unit id="If someone you’ve liked happens \nto like you back...">
+        <source>If someone you’ve liked happens 
+to like you back...</source>
+        <note>Intro process title label text</note>
+      </trans-unit>
+      <trans-unit id="If you're looking for a new job, work at Tinder">
+        <source>If you're looking for a new job, work at Tinder</source>
+        <note>text shown when the user doesn't have a job and Tinder is trying to recruit them</note>
+      </trans-unit>
+      <trans-unit id="If your current job isn't shown, please update it on Facebook and it will appear here. If you're looking for a new Job, work at Tinder">
+        <source>If your current job isn't shown, please update it on Facebook and it will appear here. If you're looking for a new Job, work at Tinder</source>
+        <note>footer text in the Job scene, when user edits jobs.</note>
+      </trans-unit>
+      <trans-unit id="If your current school isn't shown, please update it on Facebook and it will appear here.">
+        <source>If your current school isn't shown, please update it on Facebook and it will appear here.</source>
+        <note>Footer for school selection view in edit profile</note>
+      </trans-unit>
+      <trans-unit id="Improved Recommendations">
+        <source>Improved Recommendations</source>
+        <note>Improved Recommendations</note>
+      </trans-unit>
+      <trans-unit id="In %@">
+        <source>In %@</source>
+        <note>In (Location)</note>
+      </trans-unit>
+      <trans-unit id="In a Group">
+        <source>In a Group</source>
+        <note>In a Group</note>
+      </trans-unit>
+      <trans-unit id="In order to get more of your photos, we need to ask you for status updates permissions.">
+        <source>In order to get more of your photos, we need to ask you for status updates permissions.</source>
+        <note>Message for alert when we ask for photo permissions</note>
+      </trans-unit>
+      <trans-unit id="In order to suggest potential matches near you, Tinder needs to know where you are.">
+        <source>In order to suggest potential matches near you, Tinder needs to know where you are.</source>
+        <note>Error alert description, location disabled</note>
+      </trans-unit>
+      <trans-unit id="In order to suggest potential matches near you, Tinder needs to know where you are.\n\nGo to Settings &gt; Privacy &gt; Location Services, and switch Tinder to ON.">
+        <source>In order to suggest potential matches near you, Tinder needs to know where you are.
+
+Go to Settings &gt; Privacy &gt; Location Services, and switch Tinder to ON.</source>
+        <note>Error screen description, location disabled</note>
+      </trans-unit>
+      <trans-unit id="In order to upload from your Camera Roll, Tinder needs access to your Photos. Go to Settings &gt; Privacy &gt; Photos &gt; Tinder and allow access to Photos.">
+        <source>In order to upload from your Camera Roll, Tinder needs access to your Photos. Go to Settings &gt; Privacy &gt; Photos &gt; Tinder and allow access to Photos.</source>
+        <note>description text for Camera Roll Access dialog on iOS 7</note>
+      </trans-unit>
+      <trans-unit id="In order to upload from your Camera Roll, Tinder needs access to your Photos. Go to Settings to enable.">
+        <source>In order to upload from your Camera Roll, Tinder needs access to your Photos. Go to Settings to enable.</source>
+        <note>description text</note>
+      </trans-unit>
+      <trans-unit id="In-App Vibrations">
+        <source>In-App Vibrations</source>
+        <note>Label for In-App Vibration setting</note>
+      </trans-unit>
+      <trans-unit id="Inappropriate Messages">
+        <source>Inappropriate Messages</source>
+        <note>Inappropriate Messages</note>
+      </trans-unit>
+      <trans-unit id="Inappropriate Photos">
+        <source>Inappropriate Photos</source>
+        <note>Inappropriate Photos</note>
+      </trans-unit>
+      <trans-unit id="Instagram">
+        <source>Instagram</source>
+        <note>menu option to add photo from instagram</note>
+      </trans-unit>
+      <trans-unit id="Instagram account in use">
+        <source>Instagram account in use</source>
+        <note>Instagram account in use</note>
+      </trans-unit>
+      <trans-unit id="Instagram account in use.">
+        <source>Instagram account in use.</source>
+        <note>Instagram account in use.</note>
+      </trans-unit>
+      <trans-unit id="Interests">
+        <source>Interests</source>
+      </trans-unit>
+      <trans-unit id="Introducing">
+        <source>Introducing</source>
+      </trans-unit>
+      <trans-unit id="Introducing Super Like">
+        <source>Introducing Super Like</source>
+        <note>Introducing Super Like</note>
+      </trans-unit>
+      <trans-unit id="Introducing Tinder Boost">
+        <source>Introducing Tinder Boost</source>
+        <note>Title for What's New for Introduction to Boost</note>
+      </trans-unit>
+      <trans-unit id="Invite friends to go out and connect with other groups also going out.">
+        <source>Invite friends to go out and connect with other groups also going out.</source>
+        <note>dialog detail for asking user whether he/she is going out tonight.</note>
+      </trans-unit>
+      <trans-unit id="Invite your friends to swipe &amp; match with groups of friends going out tonight.">
+        <source>Invite your friends to swipe &amp; match with groups of friends going out tonight.</source>
+        <note>detail text for teaser suggesting user to create group and invite friends</note>
+      </trans-unit>
+      <trans-unit id="Invite your friends!">
+        <source>Invite your friends!</source>
+        <note>Title for invite your friends button</note>
+      </trans-unit>
+      <trans-unit id="Is this person bothering you?\nTell us what they did.">
+        <source>Is this person bothering you?
+Tell us what they did.</source>
+        <note>Is this person bothering you? Tell us what they did.
+   Is this person bothering you?\nTell us what they did</note>
+      </trans-unit>
+      <trans-unit id="It’s simple now to choose the type of people you want to see on Tinder.">
+        <source>It’s simple now to choose the type of people you want to see on Tinder.</source>
+        <note>Sub title for Who You See section in T+ Merchandising page</note>
+      </trans-unit>
+      <trans-unit id="I’LL WAIT">
+        <source>I’LL WAIT</source>
+        <note>Cancel button for Super Like Packages Paywall</note>
+      </trans-unit>
+      <trans-unit id="Keep Playing">
+        <source>Keep Playing</source>
+        <note>Button text for the user to continue to 'play' Tinder</note>
+      </trans-unit>
+      <trans-unit id="Keep Swiping">
+        <source>Keep Swiping</source>
+        <note>Title for keep swiping button in new matches screen</note>
+      </trans-unit>
+      <trans-unit id="LEAVE GROUP">
+        <source>LEAVE GROUP</source>
+        <note>Button title to leave group
+   button to leave group</note>
+      </trans-unit>
+      <trans-unit id="LINK SPOTIFY">
+        <source>LINK SPOTIFY</source>
+        <note>Link Spotify</note>
+      </trans-unit>
+      <trans-unit id="Last Updated: ">
+        <source>Last Updated: </source>
+        <note>Last Updated text for top artist fetch</note>
+      </trans-unit>
+      <trans-unit id="Last week">
+        <source>Last week</source>
+      </trans-unit>
+      <trans-unit id="Learn more about your matches. Edit your profile to adjust what you share.">
+        <source>Learn more about your matches. Edit your profile to adjust what you share.</source>
+        <note>Learn more about your matches. Edit your profile to adjust what you share.</note>
+      </trans-unit>
+      <trans-unit id="Leave">
+        <source>Leave</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Leaving the group will also remove you from any group matches and chats.">
+        <source>Leaving the group will also remove you from any group matches and chats.</source>
+        <note>detailed dialog info for leaving a group</note>
+      </trans-unit>
+      <trans-unit id="Legal">
+        <source>Legal</source>
+        <note>Header title for Legal in app settings</note>
+      </trans-unit>
+      <trans-unit id="Let other groups know what you and your friends are up to">
+        <source>Let other groups know what you and your friends are up to</source>
+        <note>status explanation in suggestion view</note>
+      </trans-unit>
+      <trans-unit id="Let them know you're interested">
+        <source>Let them know you're interested</source>
+        <note>Description for Super Like</note>
+      </trans-unit>
+      <trans-unit id="Licenses">
+        <source>Licenses</source>
+        <note>Licenses menu prompt title
+   Title for OSS Licenses view / navigation item</note>
+      </trans-unit>
+      <trans-unit id="Like">
+        <source>Like</source>
+        <note>Alertview confirm button for liking a person.
+   Confirmation button on the Like? Alertview
+   Like that appears in menu after long pressing message</note>
+      </trans-unit>
+      <trans-unit id="Like or Pass on individuals from this match.">
+        <source>Like or Pass on individuals from this match.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Like people on your phone. Matches with messages will appear here.">
+        <source>Like people on your phone. Matches with messages will appear here.</source>
+      </trans-unit>
+      <trans-unit id="Like to match and continue the conversation one on one.">
+        <source>Like to match and continue the conversation one on one.</source>
+        <note>expired chat detail text</note>
+      </trans-unit>
+      <trans-unit id="Like?">
+        <source>Like?</source>
+        <note>Alertview title displayed when you like someone.
+   Alertview title for when you like someone from the profile view.</note>
+      </trans-unit>
+      <trans-unit id="Liked %@'s moment">
+        <source>Liked %@'s moment</source>
+      </trans-unit>
+      <trans-unit id="Liked your GIPHY">
+        <source>Liked your GIPHY</source>
+        <note>Liked your GIF in In app notification
+   Liked your GIF in match list</note>
+      </trans-unit>
+      <trans-unit id="Liked your message">
+        <source>Liked your message</source>
+        <note>In app push notification
+   Liked your text message in match list</note>
+      </trans-unit>
+      <trans-unit id="Limited Time Offer">
+        <source>Limited Time Offer</source>
+        <note>Title for discounting paywall alert</note>
+      </trans-unit>
+      <trans-unit id="Listen to more music in Spotify and\ntry back later!">
+        <source>Listen to more music in Spotify and
+try back later!</source>
+        <note>Bottom text for Zero Artists found in spotify settings</note>
+      </trans-unit>
+      <trans-unit id="Loading">
+        <source>Loading</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Loading ">
+        <source>Loading </source>
+        <note>Loading</note>
+      </trans-unit>
+      <trans-unit id="Loading matches...\n(This could take a few minutes)">
+        <source>Loading matches...
+(This could take a few minutes)</source>
+        <note>Label displayed when you are loading matches into the matches view.</note>
+      </trans-unit>
+      <trans-unit id="Loading...">
+        <source>Loading...</source>
+        <note>Loading when there's some nulls
+   Progress HUD displayed when loading profile pics
+   Title of web view while it's loading a web page</note>
+      </trans-unit>
+      <trans-unit id="Local Time">
+        <source>Local Time</source>
+      </trans-unit>
+      <trans-unit id="Location">
+        <source>Location</source>
+        <note>Location cell label text
+   Location option in Passport
+   Title for Passport Locations List</note>
+      </trans-unit>
+      <trans-unit id="Log In with Facebook">
+        <source>Log In with Facebook</source>
+        <note>Intro facebook login button text</note>
+      </trans-unit>
+      <trans-unit id="Log Out">
+        <source>Log Out</source>
+        <note>Log Out
+   Quit SMS verification</note>
+      </trans-unit>
+      <trans-unit id="Logging In...">
+        <source>Logging In...</source>
+        <note>Progress HUD displayed when you are logging into facebook.</note>
+      </trans-unit>
+      <trans-unit id="Logging out...">
+        <source>Logging out...</source>
+        <note>Progress HUD displayed when a user is trying to logout.</note>
+      </trans-unit>
+      <trans-unit id="Logout">
+        <source>Logout</source>
+        <note>Logout button label</note>
+      </trans-unit>
+      <trans-unit id="Low on Likes">
+        <source>Low on Likes</source>
+        <note>Title describing to the user almost being out of 'likes'</note>
+      </trans-unit>
+      <trans-unit id="MAYBE LATER">
+        <source>MAYBE LATER</source>
+        <note>Maybe Later for dismissing connect spotify dialog.</note>
+      </trans-unit>
+      <trans-unit id="MESSAGES">
+        <source>MESSAGES</source>
+        <note>Title for header on Matches</note>
+      </trans-unit>
+      <trans-unit id="MY TINDER PLUS">
+        <source>MY TINDER PLUS</source>
+        <note>Alternate T+ settings button title for existing subscriber
+   Button title to get to T+ settings
+   MY TINDER PLUS</note>
+      </trans-unit>
+      <trans-unit id="Make a Suggestion">
+        <source>Make a Suggestion</source>
+      </trans-unit>
+      <trans-unit id="Make parts of your profile information invisible to other people.">
+        <source>Make parts of your profile information invisible to other people.</source>
+        <note>Sub title for Control Your Profile section in T+ Merchandising page</note>
+      </trans-unit>
+      <trans-unit id="Male">
+        <source>Male</source>
+        <note>gender: Male
+   Settings gender cell text</note>
+      </trans-unit>
+      <trans-unit id="Mark as read">
+        <source>Mark as read</source>
+        <note>Mark as read action</note>
+      </trans-unit>
+      <trans-unit id="Match Requests">
+        <source>Match Requests</source>
+      </trans-unit>
+      <trans-unit id="Match around the world">
+        <source>Match around the world</source>
+        <note>Swipe anywhere in the world</note>
+      </trans-unit>
+      <trans-unit id="Match with people all around the world. Paris. Los Angeles. Sydney. Go!">
+        <source>Match with people all around the world. Paris. Los Angeles. Sydney. Go!</source>
+        <note>Sub title for Passport section in T+ Merchandising page</note>
+      </trans-unit>
+      <trans-unit id="Matched on %@">
+        <source>Matched on %@</source>
+        <note>Matched on (date)</note>
+      </trans-unit>
+      <trans-unit id="Maximum Distance">
+        <source>Maximum Distance</source>
+        <note>Distance of Discovery settings</note>
+      </trans-unit>
+      <trans-unit id="Me">
+        <source>Me</source>
+        <note>'Me' as part of group description
+   CORRECT DESCRIPTION FROM PLACEHOLDER
+   Name for myself as a group friend</note>
+      </trans-unit>
+      <trans-unit id="Men and Women">
+        <source>Men and Women</source>
+        <note>Gender filter setting</note>
+      </trans-unit>
+      <trans-unit id="Message">
+        <source>Message</source>
+        <note>Message quick action</note>
+      </trans-unit>
+      <trans-unit id="Message %@">
+        <source>Message %@</source>
+        <note>message user with user name</note>
+      </trans-unit>
+      <trans-unit id="Message Likes">
+        <source>Message Likes</source>
+        <note>Label for message like notification setting</note>
+      </trans-unit>
+      <trans-unit id="Messages">
+        <source>Messages</source>
+        <note>Label for message notification setting</note>
+      </trans-unit>
+      <trans-unit id="Misconduct">
+        <source>Misconduct</source>
+        <note>Misconduct</note>
+      </trans-unit>
+      <trans-unit id="Moment Share Failed">
+        <source>Moment Share Failed</source>
+      </trans-unit>
+      <trans-unit id="Moments">
+        <source>Moments</source>
+      </trans-unit>
+      <trans-unit id="Moments are going away">
+        <source>Moments are going away</source>
+      </trans-unit>
+      <trans-unit id="Move &amp; Scale">
+        <source>Move &amp; Scale</source>
+        <note>'Move and Scale' - screen title for cropping and adjusting size of profile photo
+   Title label on the photo picker view.</note>
+      </trans-unit>
+      <trans-unit id="Move and Scale">
+        <source>Move and Scale</source>
+      </trans-unit>
+      <trans-unit id="Move to the right">
+        <source>Move to the right</source>
+        <note>Text in the tutorial header when the user sees the photo preview for the first time</note>
+      </trans-unit>
+      <trans-unit id="Mute Notifications">
+        <source>Mute Notifications</source>
+        <note>mute notifications for chat</note>
+      </trans-unit>
+      <trans-unit id="My Anthem">
+        <source>My Anthem</source>
+        <note>Header for the My Anthem (theme song) table view
+   title of spotify theme track in profile</note>
+      </trans-unit>
+      <trans-unit id="My Current Location">
+        <source>My Current Location</source>
+        <note>My Current Location
+   My Current Location in list of locations</note>
+      </trans-unit>
+      <trans-unit id="My Group">
+        <source>My Group</source>
+        <note>My Group in matches</note>
+      </trans-unit>
+      <trans-unit id="My Location">
+        <source>My Location</source>
+        <note>Approximate location</note>
+      </trans-unit>
+      <trans-unit id="My Moments">
+        <source>My Moments</source>
+      </trans-unit>
+      <trans-unit id="My Tinder Profile">
+        <source>My Tinder Profile</source>
+      </trans-unit>
+      <trans-unit id="My Top Spotify Artists">
+        <source>My Top Spotify Artists</source>
+        <note>Header for the Connect Spotify table view
+   Header Text for My Top Spotify Artists in top artists selection.
+   Top header text in the list of spotify tracks shown to the user in profile preview</note>
+      </trans-unit>
+      <trans-unit id="My Top Spotify Songs">
+        <source>My Top Spotify Songs</source>
+        <note>Header Text for user's top spotify songs in theme song selection when user is logged in.</note>
+      </trans-unit>
+      <trans-unit id="NEW MATCHES">
+        <source>NEW MATCHES</source>
+        <note>Title for header above the new matches</note>
+      </trans-unit>
+      <trans-unit id="NEXT">
+        <source>NEXT</source>
+        <note>See next item in what's new in an update</note>
+      </trans-unit>
+      <trans-unit id="NO THANKS">
+        <source>NO THANKS</source>
+      </trans-unit>
+      <trans-unit id="NO, THANKS">
+        <source>NO, THANKS</source>
+        <note>Don't opt-in
+   No thanks button in boost screen
+   No thanks button in boost summary screen
+   NO, THANKS</note>
+      </trans-unit>
+      <trans-unit id="NOT NOW">
+        <source>NOT NOW</source>
+        <note>NOT NOW
+   User is not going out, Dismiss.
+   User is not going out.</note>
+      </trans-unit>
+      <trans-unit id="NOTIFY ME">
+        <source>NOTIFY ME</source>
+        <note>subscription button where user agrees to receive updates</note>
+      </trans-unit>
+      <trans-unit id="Near %@">
+        <source>Near %@</source>
+        <note>Near (Location)</note>
+      </trans-unit>
+      <trans-unit id="Need More Super Likes?">
+        <source>Need More Super Likes?</source>
+        <note>Super Like Packages Paywall Title - `Need More Super Likes?`</note>
+      </trans-unit>
+      <trans-unit id="New Match">
+        <source>New Match</source>
+        <note>first name placeholder in no messages view
+   New match</note>
+      </trans-unit>
+      <trans-unit id="New Match Request">
+        <source>New Match Request</source>
+        <note>New Match Request title for notification banner</note>
+      </trans-unit>
+      <trans-unit id="New Matches">
+        <source>New Matches</source>
+        <note>Label for new matches notification setting</note>
+      </trans-unit>
+      <trans-unit id="No Matches Found">
+        <source>No Matches Found</source>
+        <note>Message that appears when there are no GIF search results
+   No matches title</note>
+      </trans-unit>
+      <trans-unit id="No Messages">
+        <source>No Messages</source>
+      </trans-unit>
+      <trans-unit id="No More Ads">
+        <source>No More Ads</source>
+      </trans-unit>
+      <trans-unit id="No Reason">
+        <source>No Reason</source>
+        <note>No Reason</note>
+      </trans-unit>
+      <trans-unit id="No Results">
+        <source>No Results</source>
+        <note>No Result Text</note>
+      </trans-unit>
+      <trans-unit id="No friends on Tinder">
+        <source>No friends on Tinder</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="No matches error.">
+        <source>No matches error.</source>
+        <note>no matches error desc</note>
+      </trans-unit>
+      <trans-unit id="None">
+        <source>None</source>
+        <note>Choice for not selecting any jobs(While selecting which job to display
+   Choice for not selecting any schools(While selecting which school to display.</note>
+      </trans-unit>
+      <trans-unit id="None of your friends have unlocked Tinder Social yet">
+        <source>None of your friends have unlocked Tinder Social yet</source>
+        <note>No friends using socail text in group picker
+   None of your friends have unlocked Tinder Social yet</note>
+      </trans-unit>
+      <trans-unit id="Not Delivered">
+        <source>Not Delivered</source>
+        <note>Delivery Error</note>
+      </trans-unit>
+      <trans-unit id="Not Interested">
+        <source>Not Interested</source>
+        <note>Alertview confirm button for the Not Interested? view when disliking someone from the game view.
+   Confirmation button on the Not interested? Alertview.</note>
+      </trans-unit>
+      <trans-unit id="Not Interested?">
+        <source>Not Interested?</source>
+        <note>Alertview displayed when you dislike someone on the game view.</note>
+      </trans-unit>
+      <trans-unit id="Not Logged In">
+        <source>Not Logged In</source>
+      </trans-unit>
+      <trans-unit id="Not Now">
+        <source>Not Now</source>
+        <note>Cancel button text for negative app rating
+   Cancel button text for positive app rating
+   Not Now</note>
+      </trans-unit>
+      <trans-unit id="Not interested?">
+        <source>Not interested?</source>
+        <note>Alertview title when you dislike someone from the profile view.</note>
+      </trans-unit>
+      <trans-unit id="Not now">
+        <source>Not now</source>
+        <note>Cancel button for group expired modal</note>
+      </trans-unit>
+      <trans-unit id="Nothing to restore.">
+        <source>Nothing to restore.</source>
+        <note>Alert view title to signify there were no App Store purchases eligible for restoration.</note>
+      </trans-unit>
+      <trans-unit id="Notifications">
+        <source>Notifications</source>
+        <note>Notifications</note>
+      </trans-unit>
+      <trans-unit id="Notifications, account and more">
+        <source>Notifications, account and more</source>
+      </trans-unit>
+      <trans-unit id="OK">
+        <source>OK</source>
+        <note>acknowledgement of underage ban
+   Alert View Cancel Button
+   ok
+   OK
+   OK button for Facebook error alert view
+   OK button for failed to update settings alertview.
+   OK button on the failed to delete photo alertview
+   OK button on the failed to reorder photos alertview
+   OK button on the failed to update bio alertview
+   OK for alert view</note>
+      </trans-unit>
+      <trans-unit id="OK, THANKS">
+        <source>OK, THANKS</source>
+        <note>OK, THANKS that appears on last item in whats new carousel</note>
+      </trans-unit>
+      <trans-unit id="OKAY">
+        <source>OKAY</source>
+        <note>confirmation button where the user acknowledges message
+   OKAY
+   OKAY button in boost in progress summary dialog</note>
+      </trans-unit>
+      <trans-unit id="Ok">
+        <source>Ok</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Okay">
+        <source>Okay</source>
+        <note>Actionsheet close button when there was an error trying to logout.
+   Alert view button for error in changing location
+   Alertview close button.
+   Dismiss action for app rating (declined, sent, did review)
+   Okay
+   Okay button title
+   Okay button title for the account deleted alertview.</note>
+      </trans-unit>
+      <trans-unit id="Okay, let me see it!">
+        <source>Okay, let me see it!</source>
+      </trans-unit>
+      <trans-unit id="One free Super Like a day, brought to you by:">
+        <source>One free Super Like a day, brought to you by:</source>
+        <note>One free Super Like a day, brought to you by:</note>
+      </trans-unit>
+      <trans-unit id="Only Men">
+        <source>Only Men</source>
+        <note>Gender filter setting</note>
+      </trans-unit>
+      <trans-unit id="Only Outside My Facebook Network">
+        <source>Only Outside My Facebook Network</source>
+        <note>Only Outside My Facebook Network in Who Sees You</note>
+      </trans-unit>
+      <trans-unit id="Only People I’ve Liked">
+        <source>Only People I’ve Liked</source>
+        <note>Only People I've liked in Who Sees You section</note>
+      </trans-unit>
+      <trans-unit id="Only Women">
+        <source>Only Women</source>
+        <note>Gender filter setting</note>
+      </trans-unit>
+      <trans-unit id="Only be shown to certain types of people for individual recommendations">
+        <source>Only be shown to certain types of people for individual recommendations</source>
+        <note>Only be shown to certain types of people for individual recommendations</note>
+      </trans-unit>
+      <trans-unit id="Only be shown to certain types of people on Tinder.">
+        <source>Only be shown to certain types of people on Tinder.</source>
+        <note>Sub title for Who Sees You section in T+ Merchandising page</note>
+      </trans-unit>
+      <trans-unit id="Only people I’ve right swiped will see me">
+        <source>Only people I’ve right swiped will see me</source>
+        <note>Only people I’ve right swiped will see me</note>
+      </trans-unit>
+      <trans-unit id="Open Chat">
+        <source>Open Chat</source>
+        <note>Open Chat action text for actionable push notification.</note>
+      </trans-unit>
+      <trans-unit id="Open Instagram in browser">
+        <source>Open Instagram in browser</source>
+        <note>Title for action sheet asking user which browser to open Instagram in</note>
+      </trans-unit>
+      <trans-unit id="Open Settings">
+        <source>Open Settings</source>
+        <note>prompt to open settings</note>
+      </trans-unit>
+      <trans-unit id="Optimal">
+        <source>Optimal</source>
+      </trans-unit>
+      <trans-unit id="Other">
+        <source>Other</source>
+        <note>Other Reason (for Reporting User)</note>
+      </trans-unit>
+      <trans-unit id="Other users cannot contact you unless you've already been matched">
+        <source>Other users cannot contact you unless you've already been matched</source>
+        <note>Intro privacy text</note>
+      </trans-unit>
+      <trans-unit id="Other users will never know if you've liked them unless they like you back">
+        <source>Other users will never know if you've liked them unless they like you back</source>
+        <note>Intro privacy text</note>
+      </trans-unit>
+      <trans-unit id="Out of Boosts!">
+        <source>Out of Boosts!</source>
+        <note>Boost paywall title when user is out of boosts</note>
+      </trans-unit>
+      <trans-unit id="Out of Today's Super Likes">
+        <source>Out of Today's Super Likes</source>
+        <note>Out of Today's Super Likes</note>
+      </trans-unit>
+      <trans-unit id="POPULAR LOCATIONS">
+        <source>POPULAR LOCATIONS</source>
+        <note>Header for search for popular locations</note>
+      </trans-unit>
+      <trans-unit id="POWER ON">
+        <source>POWER ON</source>
+        <note>POWER ON text on top of get tinder plus banner button</note>
+      </trans-unit>
+      <trans-unit id="Partner with Us">
+        <source>Partner with Us</source>
+      </trans-unit>
+      <trans-unit id="Passport To Any Location">
+        <source>Passport To Any Location</source>
+        <note>Passport To Any Location</note>
+      </trans-unit>
+      <trans-unit id="Password Changed">
+        <source>Password Changed</source>
+        <note>Error screen title, password error</note>
+      </trans-unit>
+      <trans-unit id="Phone Number">
+        <source>Phone Number</source>
+        <note>Go back to phone number</note>
+      </trans-unit>
+      <trans-unit id="Photo Access">
+        <source>Photo Access</source>
+        <note>title text for Photo Access request dialog</note>
+      </trans-unit>
+      <trans-unit id="Photo Failed to Upload">
+        <source>Photo Failed to Upload</source>
+        <note>Photo Failed to Upload</note>
+      </trans-unit>
+      <trans-unit id="Photo Order">
+        <source>Photo Order</source>
+        <note>title text - Photo Order</note>
+      </trans-unit>
+      <trans-unit id="Photo Permissions">
+        <source>Photo Permissions</source>
+        <note>Title for alert when we need to ask the user for extra permissions</note>
+      </trans-unit>
+      <trans-unit id="Photo Removed">
+        <source>Photo Removed</source>
+        <note>title text for Photo Removed dialog</note>
+      </trans-unit>
+      <trans-unit id="Photos of me">
+        <source>Photos of me</source>
+        <note>Album name in Facebook Photo Album List of the photos that have myself tagged in them</note>
+      </trans-unit>
+      <trans-unit id="Pick my best photo">
+        <source>Pick my best photo</source>
+        <note>title text - Pick my best photo (automatically from photos currently in user's profile)</note>
+      </trans-unit>
+      <trans-unit id="Play Full Song">
+        <source>Play Full Song</source>
+        <note>Play Full Song
+   Prompt for text to tell user to go to spotify</note>
+      </trans-unit>
+      <trans-unit id="Please ensure you have a connection to the Internet.">
+        <source>Please ensure you have a connection to the Internet.</source>
+        <note>Alert message for failed authentication when internet is unreachable
+   Generic error message for Facebook connection issues</note>
+      </trans-unit>
+      <trans-unit id="Please log into Tinder on your iOS device.\n\nTap here to retry.">
+        <source>Please log into Tinder on your iOS device.
+
+Tap here to retry.</source>
+      </trans-unit>
+      <trans-unit id="Please reconnect your Instagram account in order to display your photos in your profile.">
+        <source>Please reconnect your Instagram account in order to display your photos in your profile.</source>
+        <note>Please reconnect your Instagram account in order to display your photos in your profile.</note>
+      </trans-unit>
+      <trans-unit id="Please setup an e-mail account before contacting Tinder.">
+        <source>Please setup an e-mail account before contacting Tinder.</source>
+      </trans-unit>
+      <trans-unit id="Please try again">
+        <source>Please try again</source>
+        <note>Please try again</note>
+      </trans-unit>
+      <trans-unit id="Please try again later.">
+        <source>Please try again later.</source>
+        <note>Please try again later.</note>
+      </trans-unit>
+      <trans-unit id="Please try again.">
+        <source>Please try again.</source>
+      </trans-unit>
+      <trans-unit id="Please type your feedback here...">
+        <source>Please type your feedback here...</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Please wait...">
+        <source>Please wait...</source>
+        <note>Default busy message
+   Progress HUD detail text
+   Text for purchasing</note>
+      </trans-unit>
+      <trans-unit id="Pop.">
+        <source>Pop.</source>
+      </trans-unit>
+      <trans-unit id="Popular Locations">
+        <source>Popular Locations</source>
+      </trans-unit>
+      <trans-unit id="Popular on Spotify">
+        <source>Popular on Spotify</source>
+        <note>Header Text for Popular on Spotify section in theme song selection when user is not logged in.
+   Header text for Themesong Search when not logged in.</note>
+      </trans-unit>
+      <trans-unit id="Popularity">
+        <source>Popularity</source>
+      </trans-unit>
+      <trans-unit id="Press and hold the card to look at photos.">
+        <source>Press and hold the card to look at photos.</source>
+        <note>Text in the header for the tutorial the user sees to prompt them to try out photo preview</note>
+      </trans-unit>
+      <trans-unit id="Privacy Policy">
+        <source>Privacy Policy</source>
+        <note>By continuing, you agree to our Terms of Service and [[Privacy Policy]]
+   Privacy Policy title</note>
+      </trans-unit>
+      <trans-unit id="Problem Saving Email">
+        <source>Problem Saving Email</source>
+        <note>Alertview title when there is an error trying to save email of underage user to notify them later.</note>
+      </trans-unit>
+      <trans-unit id="Problem with e-mail">
+        <source>Problem with e-mail</source>
+      </trans-unit>
+      <trans-unit id="Problem with server">
+        <source>Problem with server</source>
+        <note>Alert title in web view load error</note>
+      </trans-unit>
+      <trans-unit id="Profile URL">
+        <source>Profile URL</source>
+      </trans-unit>
+      <trans-unit id="Pull down to refresh">
+        <source>Pull down to refresh</source>
+        <note>Pull down to refresh text</note>
+      </trans-unit>
+      <trans-unit id="Purchase Error">
+        <source>Purchase Error</source>
+        <note>Purchase Error</note>
+      </trans-unit>
+      <trans-unit id="Purchase Failed">
+        <source>Purchase Failed</source>
+        <note>Purchase Failed</note>
+      </trans-unit>
+      <trans-unit id="Purchase failed. Please try again or e-mail support@gotinder.com">
+        <source>Purchase failed. Please try again or e-mail support@gotinder.com</source>
+        <note>Purchase failed. Please try again or e-mail support@gotinder.com</note>
+      </trans-unit>
+      <trans-unit id="Purchase failed. Please try again.">
+        <source>Purchase failed. Please try again.</source>
+        <note>Purchase failed. Please try again.</note>
+      </trans-unit>
+      <trans-unit id="RECENT PASSPORT LOCATIONS">
+        <source>RECENT PASSPORT LOCATIONS</source>
+        <note>Header in Location settings</note>
+      </trans-unit>
+      <trans-unit id="RECOMMEND %@\nTO A FRIEND">
+        <source>RECOMMEND %@
+TO A FRIEND</source>
+        <note>Button title with 2 lines, first line is 'RECOMMEND (friend's name)', second line is 'TO A FRIEND', all upper case if possible. Note that preferrably there should be a new line char (\n) between the 2 lines - if not applicable in the local language, combine them in 1 line is still acceptable</note>
+      </trans-unit>
+      <trans-unit id="Rate Us">
+        <source>Rate Us</source>
+        <note>Settings menu item title text for review/rating</note>
+      </trans-unit>
+      <trans-unit id="Recent Activity">
+        <source>Recent Activity</source>
+      </trans-unit>
+      <trans-unit id="Recently Active">
+        <source>Recently Active</source>
+        <note>Recently Active</note>
+      </trans-unit>
+      <trans-unit id="Recommendations will be presented based on your location.">
+        <source>Recommendations will be presented based on your location.</source>
+        <note>Purpose for using device location</note>
+      </trans-unit>
+      <trans-unit id="Recommended by %@">
+        <source>Recommended by %@</source>
+        <note>A profile is recommended by a user's (friend's name)</note>
+      </trans-unit>
+      <trans-unit id="Refreshed Match List">
+        <source>Refreshed Match List</source>
+        <note>Refreshed Match List</note>
+      </trans-unit>
+      <trans-unit id="Release to refresh">
+        <source>Release to refresh</source>
+        <note>Release to refresh text</note>
+      </trans-unit>
+      <trans-unit id="Reordering your photos failed. Sorry! Try again.">
+        <source>Reordering your photos failed. Sorry! Try again.</source>
+        <note>Alertview message when photo reordering failed</note>
+      </trans-unit>
+      <trans-unit id="Repeat offenses could lead to your account being banned.">
+        <source>Repeat offenses could lead to your account being banned.</source>
+        <note>Repeat offenses could lead to your account being banned.</note>
+      </trans-unit>
+      <trans-unit id="Replace Main Photo">
+        <source>Replace Main Photo</source>
+        <note>Confirm button on the replace main profile image</note>
+      </trans-unit>
+      <trans-unit id="Reply">
+        <source>Reply</source>
+        <note>Reply action text for actionable push notification.</note>
+      </trans-unit>
+      <trans-unit id="Report">
+        <source>Report</source>
+        <note>Report
+   Reporting quick action</note>
+      </trans-unit>
+      <trans-unit id="Report %@">
+        <source>Report %@</source>
+        <note>Actionsheet report &lt;user name&gt;
+   User report text</note>
+      </trans-unit>
+      <trans-unit id="Report Failed">
+        <source>Report Failed</source>
+        <note>Report Failed</note>
+      </trans-unit>
+      <trans-unit id="Report User">
+        <source>Report User</source>
+        <note>Report User</note>
+      </trans-unit>
+      <trans-unit id="Report an Issue">
+        <source>Report an Issue</source>
+      </trans-unit>
+      <trans-unit id="Reported">
+        <source>Reported</source>
+        <note>Reported (first name)</note>
+      </trans-unit>
+      <trans-unit id="Reporting User...">
+        <source>Reporting User...</source>
+        <note>Reporting User...</note>
+      </trans-unit>
+      <trans-unit id="Reporting...">
+        <source>Reporting...</source>
+        <note>Reporting...</note>
+      </trans-unit>
+      <trans-unit id="Request Code">
+        <source>Request Code</source>
+        <note>Request code button in SMS verification</note>
+      </trans-unit>
+      <trans-unit id="Requesting code...">
+        <source>Requesting code...</source>
+        <note>Progress HUD displayed when you are requesting a SMS verification code.</note>
+      </trans-unit>
+      <trans-unit id="Resend">
+        <source>Resend</source>
+        <note>Actionsheet button title for resending a message if we failed to send it.</note>
+      </trans-unit>
+      <trans-unit id="Resend Code">
+        <source>Resend Code</source>
+        <note>Title for button resend code</note>
+      </trans-unit>
+      <trans-unit id="Resending code...">
+        <source>Resending code...</source>
+        <note>Progress HUD displayed when you are resending SMS verification code.</note>
+      </trans-unit>
+      <trans-unit id="Restore Error">
+        <source>Restore Error</source>
+        <note>Attempt to restored Tinder Plus features failed
+   Restore Error</note>
+      </trans-unit>
+      <trans-unit id="Restore Purchase">
+        <source>Restore Purchase</source>
+        <note>Restore Purchases</note>
+      </trans-unit>
+      <trans-unit id="Restore failed.  Please try again.">
+        <source>Restore failed.  Please try again.</source>
+        <note>Restore failed.  Please try again.</note>
+      </trans-unit>
+      <trans-unit id="Restore failed. Please try again or e-mail support@gotinder.com.">
+        <source>Restore failed. Please try again or e-mail support@gotinder.com.</source>
+        <note>Restore failed. Please try again or e-mail support@gotinder.com</note>
+      </trans-unit>
+      <trans-unit id="Restored Failed">
+        <source>Restored Failed</source>
+        <note>Attempt to restored Tinder Plus features failed</note>
+      </trans-unit>
+      <trans-unit id="Restoring purchases...">
+        <source>Restoring purchases...</source>
+        <note>Text shown when restoring purchases</note>
+      </trans-unit>
+      <trans-unit id="Results">
+        <source>Results</source>
+        <note>Header text for search results</note>
+      </trans-unit>
+      <trans-unit id="Retry">
+        <source>Retry</source>
+        <note>Retry</note>
+      </trans-unit>
+      <trans-unit id="Return soon to view new groups going out.">
+        <source>Return soon to view new groups going out.</source>
+        <note>no gorup recommendations description text</note>
+      </trans-unit>
+      <trans-unit id="Review">
+        <source>Review</source>
+        <note>Review action for positive app rating</note>
+      </trans-unit>
+      <trans-unit id="Rewind &amp; Passport Unlocked!">
+        <source>Rewind &amp; Passport Unlocked!</source>
+        <note>Tinder Plus Features Undo (Rewind) and Passport are now accessible by user</note>
+      </trans-unit>
+      <trans-unit id="Rewind Last Swipe">
+        <source>Rewind Last Swipe</source>
+        <note>Rewind Last Swipe</note>
+      </trans-unit>
+      <trans-unit id="Rewind Your Last Swipe">
+        <source>Rewind Your Last Swipe</source>
+        <note>Rewind Your Last Swipe
+   Undo your last swipe</note>
+      </trans-unit>
+      <trans-unit id="Rewind your last swipe">
+        <source>Rewind your last swipe</source>
+      </trans-unit>
+      <trans-unit id="SAVE %@">
+        <source>SAVE %@</source>
+        <note>String to indicate discount. Example save 50%</note>
+      </trans-unit>
+      <trans-unit id="SEE DETAILS &gt;">
+        <source>SEE DETAILS &gt;</source>
+        <note>Disclosure for matches header</note>
+      </trans-unit>
+      <trans-unit id="SEE WHO'S GOING OUT">
+        <source>SEE WHO'S GOING OUT</source>
+        <note>Start group recommendation action  button.</note>
+      </trans-unit>
+      <trans-unit id="SETTINGS">
+        <source>SETTINGS</source>
+        <note>Button in Home Menu for opening Settings</note>
+      </trans-unit>
+      <trans-unit id="SHOW MY INSTAGRAM PHOTOS">
+        <source>SHOW MY INSTAGRAM PHOTOS</source>
+        <note>Title label, SHOW MY INSTAGRAM PHOTOS</note>
+      </trans-unit>
+      <trans-unit id="SKIP">
+        <source>SKIP</source>
+        <note>Skip seeing whats new in an update</note>
+      </trans-unit>
+      <trans-unit id="SMS Verification">
+        <source>SMS Verification</source>
+        <note>Title for SMS verification view</note>
+      </trans-unit>
+      <trans-unit id="SPECIAL">
+        <source>SPECIAL</source>
+        <note>ribbon text in discounting tinder plus paywall</note>
+      </trans-unit>
+      <trans-unit id="START SWIPING">
+        <source>START SWIPING</source>
+        <note>Start card swiping for groups.</note>
+      </trans-unit>
+      <trans-unit id="SUBSCRIBE">
+        <source>SUBSCRIBE</source>
+        <note>subscribe button on Tinder Plus paywall</note>
+      </trans-unit>
+      <trans-unit id="SUPER LIKE">
+        <source>SUPER LIKE</source>
+        <note>SUPER LIKE</note>
+      </trans-unit>
+      <trans-unit id="SUPER LIKED YOU!">
+        <source>SUPER LIKED YOU!</source>
+      </trans-unit>
+      <trans-unit id="SWIPE ON PEOPLE NEARBY">
+        <source>SWIPE ON PEOPLE NEARBY</source>
+        <note>button title to switch from group recs to individual recs</note>
+      </trans-unit>
+      <trans-unit id="Save to Photos">
+        <source>Save to Photos</source>
+      </trans-unit>
+      <trans-unit id="Saved!">
+        <source>Saved!</source>
+      </trans-unit>
+      <trans-unit id="Saving the image failed. Sorry! Try again.">
+        <source>Saving the image failed. Sorry! Try again.</source>
+      </trans-unit>
+      <trans-unit id="Saving...">
+        <source>Saving...</source>
+      </trans-unit>
+      <trans-unit id="Say Hello">
+        <source>Say Hello</source>
+        <note>No matches w/messages title</note>
+      </trans-unit>
+      <trans-unit id="School">
+        <source>School</source>
+        <note>Header for the School table view</note>
+      </trans-unit>
+      <trans-unit id="Scientifically proven to get you more matches">
+        <source>Scientifically proven to get you more matches</source>
+      </trans-unit>
+      <trans-unit id="Search %i Match">
+        <source>Search %i Match</source>
+        <note>Placeholder text in search bar</note>
+      </trans-unit>
+      <trans-unit id="Search %i Matches">
+        <source>Search %i Matches</source>
+        <note>Placeholder text in search bar</note>
+      </trans-unit>
+      <trans-unit id="Search Friends">
+        <source>Search Friends</source>
+        <note>Placeholder for search bar in create group</note>
+      </trans-unit>
+      <trans-unit id="Search Spotify Songs">
+        <source>Search Spotify Songs</source>
+        <note>Placeholder text in search bar</note>
+      </trans-unit>
+      <trans-unit id="Search a GIF...">
+        <source>Search a GIF...</source>
+        <note>Search a GIF...</note>
+      </trans-unit>
+      <trans-unit id="Search a Location">
+        <source>Search a Location</source>
+        <note>Search a Location</note>
+      </trans-unit>
+      <trans-unit id="Searching for more people going out tonight...">
+        <source>Searching for more people going out tonight...</source>
+        <note>Text explaining searching for groups</note>
+      </trans-unit>
+      <trans-unit id="See the most recently active people first">
+        <source>See the most recently active people first</source>
+        <note>See the most recently active people first</note>
+      </trans-unit>
+      <trans-unit id="See the most relevant people to you (default setting)">
+        <source>See the most relevant people to you (default setting)</source>
+        <note>See the most relevant people to you (default setting)</note>
+      </trans-unit>
+      <trans-unit id="See who likes your moments and start a conversation">
+        <source>See who likes your moments and start a conversation</source>
+      </trans-unit>
+      <trans-unit id="See who's going out tonight">
+        <source>See who's going out tonight</source>
+        <note>Dialog title for What's New</note>
+      </trans-unit>
+      <trans-unit id="Select All">
+        <source>Select All</source>
+        <note>Select All text for button to select all top artists.</note>
+      </trans-unit>
+      <trans-unit id="Select Birthdate">
+        <source>Select Birthdate</source>
+        <note>placeholder text for roadblock textfields</note>
+      </trans-unit>
+      <trans-unit id="Select Gender">
+        <source>Select Gender</source>
+        <note>placeholder text for roadblock textfields</note>
+      </trans-unit>
+      <trans-unit id="Send">
+        <source>Send</source>
+        <note>Send action for writing negative feedback</note>
+      </trans-unit>
+      <trans-unit id="Send Message">
+        <source>Send Message</source>
+        <note>Title for send message button in new matches screen</note>
+      </trans-unit>
+      <trans-unit id="Send More Super Likes">
+        <source>Send More Super Likes</source>
+        <note>Title for Super Like feature</note>
+      </trans-unit>
+      <trans-unit id="Send message">
+        <source>Send message</source>
+        <note>Title for button to SMS</note>
+      </trans-unit>
+      <trans-unit id="Sent">
+        <source>Sent</source>
+        <note>sent</note>
+      </trans-unit>
+      <trans-unit id="Sent you a GIPHY">
+        <source>Sent you a GIPHY</source>
+        <note>Sent you a GIPHY
+   Sent you a GIPHY message in match list</note>
+      </trans-unit>
+      <trans-unit id="Server Error">
+        <source>Server Error</source>
+        <note>Title for geocoded error from Apple</note>
+      </trans-unit>
+      <trans-unit id="Server error">
+        <source>Server error</source>
+        <note>Authentication with Tinder servers failed title</note>
+      </trans-unit>
+      <trans-unit id="Session Error">
+        <source>Session Error</source>
+        <note>login alert view title</note>
+      </trans-unit>
+      <trans-unit id="Settings">
+        <source>Settings</source>
+        <note>Settings</note>
+      </trans-unit>
+      <trans-unit id="Share My URL">
+        <source>Share My URL</source>
+        <note>Menu entry for sharing the url to your profile</note>
+      </trans-unit>
+      <trans-unit id="Share Tinder">
+        <source>Share Tinder</source>
+        <note>Share Tinder</note>
+      </trans-unit>
+      <trans-unit id="Share your Instagram photos, too">
+        <source>Share your Instagram photos, too</source>
+        <note>Title label, 'Share your Instagram photos, too'</note>
+      </trans-unit>
+      <trans-unit id="Share your Spotify Music Interests, too">
+        <source>Share your Spotify Music Interests, too</source>
+        <note>Text Shwon in the profile preview under track list prompting the user to connect to spotify</note>
+      </trans-unit>
+      <trans-unit id="Shared Friends">
+        <source>Shared Friends</source>
+      </trans-unit>
+      <trans-unit id="Shared Interests">
+        <source>Shared Interests</source>
+      </trans-unit>
+      <trans-unit id="Show %@'s Profile">
+        <source>Show %@'s Profile</source>
+        <note>Show &lt;user name&gt;'s Profile</note>
+      </trans-unit>
+      <trans-unit id="Show Me">
+        <source>Show Me</source>
+        <note>View title for gender discovery options</note>
+      </trans-unit>
+      <trans-unit id="Show me in Discovery">
+        <source>Show me in Discovery</source>
+      </trans-unit>
+      <trans-unit id="Show me on Tinder">
+        <source>Show me on Tinder</source>
+        <note>Updated settings screen</note>
+      </trans-unit>
+      <trans-unit id="Show me on Tinder Social">
+        <source>Show me on Tinder Social</source>
+        <note>Label for Tinder Social opt-in switch in Settings</note>
+      </trans-unit>
+      <trans-unit id="Show me people within the ages of">
+        <source>Show me people within the ages of</source>
+      </trans-unit>
+      <trans-unit id="Shows more of Tinder's most popular users">
+        <source>Shows more of Tinder's most popular users</source>
+      </trans-unit>
+      <trans-unit id="Shows more recently active users">
+        <source>Shows more recently active users</source>
+      </trans-unit>
+      <trans-unit id="Shows users closest to you">
+        <source>Shows users closest to you</source>
+      </trans-unit>
+      <trans-unit id="Signed out of Instagram">
+        <source>Signed out of Instagram</source>
+        <note>Signed out of Instagram</note>
+      </trans-unit>
+      <trans-unit id="Skip The Line">
+        <source>Skip The Line</source>
+        <note>Skip The Line
+   Skip the line string in boost dialogs
+   Skip The Line: Text for when non paid subscriber is out of boosts</note>
+      </trans-unit>
+      <trans-unit id="Someone already has that username">
+        <source>Someone already has that username</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Something went wrong">
+        <source>Something went wrong</source>
+        <note>Alert title for error when requesting a share link for rec
+   Alert view title for facebook authentication error.
+   Error for missing product ID when trying to purchase from Rate Card
+   title for generic unhandled error from Facebook authentication</note>
+      </trans-unit>
+      <trans-unit id="Something went wrong!">
+        <source>Something went wrong!</source>
+        <note>Faliure Message when there is an error trying to change settings</note>
+      </trans-unit>
+      <trans-unit id="Something went wrong, please try again or email support@gotinder.com">
+        <source>Something went wrong, please try again or email support@gotinder.com</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Something went wrong.">
+        <source>Something went wrong.</source>
+        <note>Something went wrong.</note>
+      </trans-unit>
+      <trans-unit id="Sorry :(">
+        <source>Sorry :(</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Sorry, an error occurred while applying your settings. Please try again.">
+        <source>Sorry, an error occurred while applying your settings. Please try again.</source>
+        <note>Alertview message when updating a users settings failed.</note>
+      </trans-unit>
+      <trans-unit id="Sorry, something went wrong.">
+        <source>Sorry, something went wrong.</source>
+        <note>Sorry, something went wrong.</note>
+      </trans-unit>
+      <trans-unit id="Sorry, something went wrong. Please try again.">
+        <source>Sorry, something went wrong. Please try again.</source>
+        <note>Alertview message when there is an error trying to save email of underage user.</note>
+      </trans-unit>
+      <trans-unit id="Sorry, the share link is expired.">
+        <source>Sorry, the share link is expired.</source>
+        <note>When the SMS share a rec is expired</note>
+      </trans-unit>
+      <trans-unit id="Sorry, we couldn't undo that Super Like.">
+        <source>Sorry, we couldn't undo that Super Like.</source>
+        <note>Sorry, we couldn't undo that Super Like.</note>
+      </trans-unit>
+      <trans-unit id="Spotify">
+        <source>Spotify</source>
+        <note>Header for the Select Top Artists
+   Title shown when choosing top artists</note>
+      </trans-unit>
+      <trans-unit id="Spotify Connected">
+        <source>Spotify Connected</source>
+        <note>Spotify Connected</note>
+      </trans-unit>
+      <trans-unit id="Standard">
+        <source>Standard</source>
+        <note>Standard option in Who Sees You</note>
+      </trans-unit>
+      <trans-unit id="Start Playing">
+        <source>Start Playing</source>
+        <note>Code verification completed, button title</note>
+      </trans-unit>
+      <trans-unit id="Start a group with friends to match with other groups on Tinder Social.">
+        <source>Start a group with friends to match with other groups on Tinder Social.</source>
+        <note>dialog detail for creating a group</note>
+      </trans-unit>
+      <trans-unit id="Statuses can not contain hyperlinks. Please try again.">
+        <source>Statuses can not contain hyperlinks. Please try again.</source>
+        <note>Detail in status-contains-links error dialog</note>
+      </trans-unit>
+      <trans-unit id="Submit Code">
+        <source>Submit Code</source>
+        <note>Title for submit code button</note>
+      </trans-unit>
+      <trans-unit id="Successfully set your username">
+        <source>Successfully set your username</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Super Like">
+        <source>Super Like</source>
+        <note>single super like package button prompt</note>
+      </trans-unit>
+      <trans-unit id="Super Like %@?">
+        <source>Super Like %@?</source>
+        <note>Super Like [NAME]?</note>
+      </trans-unit>
+      <trans-unit id="Super Like [FIRST NAME]">
+        <source>Super Like [FIRST NAME]</source>
+      </trans-unit>
+      <trans-unit id="Super Like to make sure %@ knows you like them.">
+        <source>Super Like to make sure %@ knows you like them.</source>
+      </trans-unit>
+      <trans-unit id="Super Likes">
+        <source>Super Likes</source>
+        <note>Label for Super Likes notification Setting
+   plural super like package button prompt</note>
+      </trans-unit>
+      <trans-unit id="Swipe &amp; match with groups of friends going out tonight">
+        <source>Swipe &amp; match with groups of friends going out tonight</source>
+        <note>Subtitle for page 1 of What's New</note>
+      </trans-unit>
+      <trans-unit id="Swipe and match with people anywhere in the world">
+        <source>Swipe and match with people anywhere in the world</source>
+      </trans-unit>
+      <trans-unit id="Swipe as much as you like.">
+        <source>Swipe as much as you like.</source>
+        <note>Sub title for Unlimited Swipes section in T+ Merchandising page</note>
+      </trans-unit>
+      <trans-unit id="TINDER PLUS">
+        <source>TINDER PLUS</source>
+      </trans-unit>
+      <trans-unit id="TINDER SELECT MEMBER">
+        <source>TINDER SELECT MEMBER</source>
+        <note>Card cell banner text for Tinder Select Member</note>
+      </trans-unit>
+      <trans-unit id="TINDER SOCIAL MATCH">
+        <source>TINDER SOCIAL MATCH</source>
+        <note>Card Cell banner text for social match</note>
+      </trans-unit>
+      <trans-unit id="Tap and hold on a card to preview photos before opening the profile.">
+        <source>Tap and hold on a card to preview photos before opening the profile.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Tap on a new match above to send a message">
+        <source>Tap on a new match above to send a message</source>
+        <note>No matches w/messages detail text</note>
+      </trans-unit>
+      <trans-unit id="Tap the number of stars you'd give us on a scale from 1-5.">
+        <source>Tap the number of stars you'd give us on a scale from 1-5.</source>
+        <note>Detail text for initial app rating prompt</note>
+      </trans-unit>
+      <trans-unit id="Tap to view your results">
+        <source>Tap to view your results</source>
+        <note>Tap to view your results</note>
+      </trans-unit>
+      <trans-unit id="Tap, hold, and drag photos to rearrange.">
+        <source>Tap, hold, and drag photos to rearrange.</source>
+        <note>Tool tip text to rearrange photos</note>
+      </trans-unit>
+      <trans-unit id="Tapping the X indicates you're not interested in %@.">
+        <source>Tapping the X indicates you're not interested in %@.</source>
+        <note>Alertview message for when you dislike someone from the profile view. You tap an X icon to dislike someone.</note>
+      </trans-unit>
+      <trans-unit id="Tapping the  indicates you liked %@.">
+        <source>Tapping the  indicates you liked %@.</source>
+        <note>Alertview message for when you like someone from the profile view. You tap a heart icon to like them.</note>
+      </trans-unit>
+      <trans-unit id="Tell Your Friends">
+        <source>Tell Your Friends</source>
+        <note>Title for tell your friends button in new matches screen</note>
+      </trans-unit>
+      <trans-unit id="Tell us who you'll be with to start swiping.">
+        <source>Tell us who you'll be with to start swiping.</source>
+        <note>going out tonight banner view detail text</note>
+      </trans-unit>
+      <trans-unit id="Tell us who you're with to start swiping on other groups going out tonight.">
+        <source>Tell us who you're with to start swiping on other groups going out tonight.</source>
+        <note>dialog detail for creating a group</note>
+      </trans-unit>
+      <trans-unit id="Tell us who you’re with to start swiping\non other groups of friends going out!">
+        <source>Tell us who you’re with to start swiping
+on other groups of friends going out!</source>
+        <note>not in a group &amp; no groups near me description text</note>
+      </trans-unit>
+      <trans-unit id="Tell us why...">
+        <source>Tell us why...</source>
+        <note>Tell us why...(you're unmatching with this user)</note>
+      </trans-unit>
+      <trans-unit id="Terms Of Service">
+        <source>Terms Of Service</source>
+      </trans-unit>
+      <trans-unit id="Terms of Service">
+        <source>Terms of Service</source>
+        <note>By continuing, you agree to our [[Terms of Service]] and Privacy Policy
+   Terms of Service title</note>
+      </trans-unit>
+      <trans-unit id="Thank You">
+        <source>Thank You</source>
+        <note>Title for app rating feedback sent</note>
+      </trans-unit>
+      <trans-unit id="Thank You!">
+        <source>Thank You!</source>
+        <note>Code verification completed, title</note>
+      </trans-unit>
+      <trans-unit id="Thank you">
+        <source>Thank you</source>
+        <note>Thank you title</note>
+      </trans-unit>
+      <trans-unit id="Thank you, but this feature is not yet available.">
+        <source>Thank you, but this feature is not yet available.</source>
+        <note>Thank you message</note>
+      </trans-unit>
+      <trans-unit id="Thanks for Your Feedback">
+        <source>Thanks for Your Feedback</source>
+        <note>Title for decline app rating prompt</note>
+      </trans-unit>
+      <trans-unit id="Thanks for the Love">
+        <source>Thanks for the Love</source>
+        <note>Title for positive app review</note>
+      </trans-unit>
+      <trans-unit id="Thanks! We like you too!">
+        <source>Thanks! We like you too!</source>
+        <note>Title for positive app rating response</note>
+      </trans-unit>
+      <trans-unit id="The Moments you take will show up here">
+        <source>The Moments you take will show up here</source>
+      </trans-unit>
+      <trans-unit id="The photo you selected failed to upload. Please try again.">
+        <source>The photo you selected failed to upload. Please try again.</source>
+        <note>The photo you selected failed to upload. Please try again.</note>
+      </trans-unit>
+      <trans-unit id="The user name doesn't exist">
+        <source>The user name doesn't exist</source>
+        <note>The user name doesn't exist</note>
+      </trans-unit>
+      <trans-unit id="Their group expires \n on %@">
+        <source>Their group expires 
+ on %@</source>
+        <note>group expires first</note>
+      </trans-unit>
+      <trans-unit id="There are issues connecting to Tinder. Please try again later.">
+        <source>There are issues connecting to Tinder. Please try again later.</source>
+        <note>Authentication with Tinder servers failed message</note>
+      </trans-unit>
+      <trans-unit id="There are no active subscriptions to restore. Choose a subscription to upgrade to Tinder Plus!">
+        <source>There are no active subscriptions to restore. Choose a subscription to upgrade to Tinder Plus!</source>
+        <note>There are no active subscriptions to restore.  Tap unlock to purchase Tinder Plus.</note>
+      </trans-unit>
+      <trans-unit id="There was a problem accessing the selected photo on Facebook.">
+        <source>There was a problem accessing the selected photo on Facebook.</source>
+        <note>Alertview message when there is an error trying to select a photo from the facebook photo picker.</note>
+      </trans-unit>
+      <trans-unit id="There was a problem changing your location. Please try again later.">
+        <source>There was a problem changing your location. Please try again later.</source>
+        <note>Alert view description</note>
+      </trans-unit>
+      <trans-unit id="There was a problem deleting your Tinder account. Please try again later.">
+        <source>There was a problem deleting your Tinder account. Please try again later.</source>
+        <note>Alertview message when a users account could not be deleted.</note>
+      </trans-unit>
+      <trans-unit id="There was a problem loading your request, please try again later.">
+        <source>There was a problem loading your request, please try again later.</source>
+        <note>Alert message in web view load error
+   Error when we couldn't get a geocoded address from Apple
+   Generic error message for Rate Card</note>
+      </trans-unit>
+      <trans-unit id="There was a problem logging out of your account. Please try again later.">
+        <source>There was a problem logging out of your account. Please try again later.</source>
+        <note>Actionsheet message displayed when there was an error trying to logout.</note>
+      </trans-unit>
+      <trans-unit id="There was an error creating your group. Please try again.">
+        <source>There was an error creating your group. Please try again.</source>
+        <note>Alert description for error creating group</note>
+      </trans-unit>
+      <trans-unit id="There was an error ending your group. Please try again.">
+        <source>There was an error ending your group. Please try again.</source>
+        <note>error detail for ending group failure</note>
+      </trans-unit>
+      <trans-unit id="There was an error extending your group. Please try again.">
+        <source>There was an error extending your group. Please try again.</source>
+        <note>error detail when failed to extend group lifetime</note>
+      </trans-unit>
+      <trans-unit id="There was an error loading your group. Please wait a few minutes and try again.">
+        <source>There was an error loading your group. Please wait a few minutes and try again.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="There was an error removing you from your group. Please try again.">
+        <source>There was an error removing you from your group. Please try again.</source>
+        <note>error detail for leaving group failure</note>
+      </trans-unit>
+      <trans-unit id="There was an error retrieving your friends from Facebook. Please try again.">
+        <source>There was an error retrieving your friends from Facebook. Please try again.</source>
+        <note>Alert description for error getitng friends</note>
+      </trans-unit>
+      <trans-unit id="There was an error retrieving your photo from Facebook. Please try again.">
+        <source>There was an error retrieving your photo from Facebook. Please try again.</source>
+        <note>description text for Facebook photo upload error dialog</note>
+      </trans-unit>
+      <trans-unit id="There was an error unmatching this group. Please try again.">
+        <source>There was an error unmatching this group. Please try again.</source>
+        <note>error detail for unmatching group failure</note>
+      </trans-unit>
+      <trans-unit id="There was an error unmatching this user. Please try again.">
+        <source>There was an error unmatching this user. Please try again.</source>
+        <note>error detail for unmatching user failure</note>
+      </trans-unit>
+      <trans-unit id="There was an error updating your group status. Please try again.">
+        <source>There was an error updating your group status. Please try again.</source>
+        <note>error detail when failed to update group status</note>
+      </trans-unit>
+      <trans-unit id="There was some info we couldn't get from Facebook. Complete your profile to continue.">
+        <source>There was some info we couldn't get from Facebook. Complete your profile to continue.</source>
+        <note>Age and gender roadblock secondary header.</note>
+      </trans-unit>
+      <trans-unit id="There's no better way to share your love for Tinder than giving us a nice review.">
+        <source>There's no better way to share your love for Tinder than giving us a nice review.</source>
+        <note>Detail text for positive app rating response</note>
+      </trans-unit>
+      <trans-unit id="There's no one new around you.">
+        <source>There's no one new around you.</source>
+        <note>Title for when there is no recs</note>
+      </trans-unit>
+      <trans-unit id="They need to be using the latest version of Tinder to be in your group.">
+        <source>They need to be using the latest version of Tinder to be in your group.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="This action cannot be undone.">
+        <source>This action cannot be undone.</source>
+        <note>This action cannot be undone.</note>
+      </trans-unit>
+      <trans-unit id="This group chat has expired.">
+        <source>This group chat has expired.</source>
+        <note>chat expired header</note>
+      </trans-unit>
+      <trans-unit id="This is your last warning before your account is locked and put under review.">
+        <source>This is your last warning before your account is locked and put under review.</source>
+        <note>This is your last warning before your account is locked and put under review.</note>
+      </trans-unit>
+      <trans-unit id="This month">
+        <source>This month</source>
+      </trans-unit>
+      <trans-unit id="This offer is no longer valid. Please e-mail support@gotinder.com">
+        <source>This offer is no longer valid. Please e-mail support@gotinder.com</source>
+        <note>Attempted to purchase discounting SKU, but discount is no longer valid. Please e-mail support@gotinder.com</note>
+      </trans-unit>
+      <trans-unit id="This user has been reported.">
+        <source>This user has been reported.</source>
+        <note>This user has been reported.</note>
+      </trans-unit>
+      <trans-unit id="This user has sharing disabled">
+        <source>This user has sharing disabled</source>
+        <note>This user has disabled profile sharing.</note>
+      </trans-unit>
+      <trans-unit id="This week">
+        <source>This week</source>
+      </trans-unit>
+      <trans-unit id="This will end the group for you and everyone in it. All matches and chats for the entire group will be lost.">
+        <source>This will end the group for you and everyone in it. All matches and chats for the entire group will be lost.</source>
+        <note>detailed dialog info for ending a group</note>
+      </trans-unit>
+      <trans-unit id="Tinder Boost">
+        <source>Tinder Boost</source>
+        <note>Tinder Boost</note>
+      </trans-unit>
+      <trans-unit id="Tinder Disabled">
+        <source>Tinder Disabled</source>
+        <note>Error screen title, Tinder disabled</note>
+      </trans-unit>
+      <trans-unit id="Tinder ID">
+        <source>Tinder ID</source>
+      </trans-unit>
+      <trans-unit id="Tinder Plus">
+        <source>Tinder Plus</source>
+        <note>Tinder Plus</note>
+      </trans-unit>
+      <trans-unit id="Tinder Plus Discount">
+        <source>Tinder Plus Discount</source>
+        <note>Tinder Plus Discount</note>
+      </trans-unit>
+      <trans-unit id="Tinder Plus Unlocked!">
+        <source>Tinder Plus Unlocked!</source>
+        <note>Tinder Plus Features are now accessible by user</note>
+      </trans-unit>
+      <trans-unit id="Tinder Plus users enjoy one free Boost every week!">
+        <source>Tinder Plus users enjoy one free Boost every week!</source>
+        <note>Tinder Plus users enjoy one free Boost every week!</note>
+      </trans-unit>
+      <trans-unit id="Tinder doesn't support users in your age range. Supported ages may vary by country. If you have questions, please contact us at help@gotinder.com">
+        <source>Tinder doesn't support users in your age range. Supported ages may vary by country. If you have questions, please contact us at help@gotinder.com</source>
+        <note>Blocking dialog shown to underage users.</note>
+      </trans-unit>
+      <trans-unit id="Tinder doesn't support users in your age range. Supported ages may vary by country. Subscribe to be notified when you can join. If you have questions, please contact us at help@gotinder.com">
+        <source>Tinder doesn't support users in your age range. Supported ages may vary by country. Subscribe to be notified when you can join. If you have questions, please contact us at help@gotinder.com</source>
+        <note>Email collection dialog shown to underage users.</note>
+      </trans-unit>
+      <trans-unit id="Tinder might not have access to your Photos. Check your Settings app and allow Tinder access.">
+        <source>Tinder might not have access to your Photos. Check your Settings app and allow Tinder access.</source>
+      </trans-unit>
+      <trans-unit id="Tinder needs to verify your identity. Please enter your phone number. You will receive an SMS with a verification code.">
+        <source>Tinder needs to verify your identity. Please enter your phone number. You will receive an SMS with a verification code.</source>
+        <note>Prompt for SMS verification</note>
+      </trans-unit>
+      <trans-unit id="Tinder requires you provide additional Facebook permissions in order to create or use a Tinder account. This information is used to create fuller profiles, verify authenticity and provide support.">
+        <source>Tinder requires you provide additional Facebook permissions in order to create or use a Tinder account. This information is used to create fuller profiles, verify authenticity and provide support.</source>
+        <note>Message for alert for permissions</note>
+      </trans-unit>
+      <trans-unit id="Tinder was removed from your Facebook App Center. That's all right, we still love you but we're gonna need you to give us permission again.">
+        <source>Tinder was removed from your Facebook App Center. That's all right, we still love you but we're gonna need you to give us permission again.</source>
+        <note>Alertview message when user removed tinder from their facebook app center.</note>
+      </trans-unit>
+      <trans-unit id="To upload photos from your Camera Roll, Tinder needs to access your Photos. Please tap &quot;Allow&quot; in the next step.">
+        <source>To upload photos from your Camera Roll, Tinder needs to access your Photos. Please tap "Allow" in the next step.</source>
+        <note>description text for Photo Access request dialog</note>
+      </trans-unit>
+      <trans-unit id="Today">
+        <source>Today</source>
+      </trans-unit>
+      <trans-unit id="Try a different search">
+        <source>Try a different search</source>
+        <note>No matches description</note>
+      </trans-unit>
+      <trans-unit id="Turn Off Ads">
+        <source>Turn Off Ads</source>
+        <note>Title for hide ads feature</note>
+      </trans-unit>
+      <trans-unit id="Turning this on will allow your friends to find you and invite you to go out on Tinder Social.">
+        <source>Turning this on will allow your friends to find you and invite you to go out on Tinder Social.</source>
+        <note>Settings description for the 'show me on Tinder Social' section</note>
+      </trans-unit>
+      <trans-unit id="Turning this on will show your profile to single users near you.">
+        <source>Turning this on will show your profile to single users near you.</source>
+        <note>Settings description for the 'show me in 'discovery' setting.</note>
+      </trans-unit>
+      <trans-unit id="Type a Message...">
+        <source>Type a Message...</source>
+        <note>Placeholder text in the chatview chatbox</note>
+      </trans-unit>
+      <trans-unit id="UNLOCK TINDER SOCIAL">
+        <source>UNLOCK TINDER SOCIAL</source>
+        <note>Opt-in to Tinder Social</note>
+      </trans-unit>
+      <trans-unit id="UNMATCH">
+        <source>UNMATCH</source>
+        <note>unmatch</note>
+      </trans-unit>
+      <trans-unit id="UPLOAD PHOTO">
+        <source>UPLOAD PHOTO</source>
+        <note>button text for uploading photo</note>
+      </trans-unit>
+      <trans-unit id="Unable to Change Location">
+        <source>Unable to Change Location</source>
+        <note>Alert View title for server error or problem in changing user's location</note>
+      </trans-unit>
+      <trans-unit id="Unable to Complete Undo">
+        <source>Unable to Complete Undo</source>
+        <note>Unable to Complete Undo</note>
+      </trans-unit>
+      <trans-unit id="Unable to connect to the App Store.">
+        <source>Unable to connect to the App Store.</source>
+        <note>Unable to connect to the App Store</note>
+      </trans-unit>
+      <trans-unit id="Unable to save photo">
+        <source>Unable to save photo</source>
+      </trans-unit>
+      <trans-unit id="Unable to view users 18 or older">
+        <source>Unable to view users 18 or older</source>
+        <note>When underage user tries to deep link to someone that is 18 years or older</note>
+      </trans-unit>
+      <trans-unit id="Uninterrupted play">
+        <source>Uninterrupted play</source>
+      </trans-unit>
+      <trans-unit id="Uninterrupted swiping">
+        <source>Uninterrupted swiping</source>
+        <note>Description for hide ads</note>
+      </trans-unit>
+      <trans-unit id="Unknown">
+        <source>Unknown</source>
+        <note>Unknown
+   Unknown Location.</note>
+      </trans-unit>
+      <trans-unit id="Unlimited Likes">
+        <source>Unlimited Likes</source>
+        <note>Title for feature in Tinder Plus paywall
+   Unlimited Likes</note>
+      </trans-unit>
+      <trans-unit id="Unlimited Right Swipes">
+        <source>Unlimited Right Swipes</source>
+        <note>Unlimited Right Swipes</note>
+      </trans-unit>
+      <trans-unit id="Unlimited likes">
+        <source>Unlimited likes</source>
+      </trans-unit>
+      <trans-unit id="Unlock Tinder Social so I can add you to my group that's going out tonight:">
+        <source>Unlock Tinder Social so I can add you to my group that's going out tonight:</source>
+        <note>[New] Message displayed in the tell your friends message.</note>
+      </trans-unit>
+      <trans-unit id="Unmatch">
+        <source>Unmatch</source>
+        <note>Unmatch
+   Unmatch quick action</note>
+      </trans-unit>
+      <trans-unit id="Unmatch %@">
+        <source>Unmatch %@</source>
+        <note>Actionsheet unmatch &lt;user name&gt;
+   Profile actionsheet unmatch text</note>
+      </trans-unit>
+      <trans-unit id="Unmatching...">
+        <source>Unmatching...</source>
+        <note>Progress HUD displayed when you are authenticating with the server.</note>
+      </trans-unit>
+      <trans-unit id="Unmute">
+        <source>Unmute</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Unmute Notifications">
+        <source>Unmute Notifications</source>
+        <note>Unmute chat notifications</note>
+      </trans-unit>
+      <trans-unit id="Until your next free boost.">
+        <source>Until your next free boost.</source>
+        <note>The string that follows the time remaining for boosts to refresh</note>
+      </trans-unit>
+      <trans-unit id="Up to %@%% Off Tinder Plus">
+        <source>Up to %@%% Off Tinder Plus</source>
+        <note>Title for discount slideshow in paywall. Eg: 50% Off Tinder Plus</note>
+      </trans-unit>
+      <trans-unit id="Update Facebook Permissions">
+        <source>Update Facebook Permissions</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Updating your bio failed. Try again.">
+        <source>Updating your bio failed. Try again.</source>
+        <note>Alertview message when bio update failed</note>
+      </trans-unit>
+      <trans-unit id="Use Passport to choose a new location.">
+        <source>Use Passport to choose a new location.</source>
+        <note>Shown when there are no recommendations/people/cards in the currently selected location.</note>
+      </trans-unit>
+      <trans-unit id="User Reported">
+        <source>User Reported</source>
+        <note>Reported User</note>
+      </trans-unit>
+      <trans-unit id="User is unavailable. They may have changed or removed their ID.">
+        <source>User is unavailable. They may have changed or removed their ID.</source>
+        <note>Error given when a user tries to open a deep linked user but the server says no</note>
+      </trans-unit>
+      <trans-unit id="Username">
+        <source>Username</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Usernames can only contain letters, numbers and underscores">
+        <source>Usernames can only contain letters, numbers and underscores</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="VIEW MORE ON INSTAGRAM">
+        <source>VIEW MORE ON INSTAGRAM</source>
+        <note>Button text for last cell in Instagram profile block</note>
+      </trans-unit>
+      <trans-unit id="Verified">
+        <source>Verified</source>
+        <note>Notes Celebrity is Verified</note>
+      </trans-unit>
+      <trans-unit id="Version %@">
+        <source>Version %@</source>
+        <note>Version number on app settings</note>
+      </trans-unit>
+      <trans-unit id="View %@ Profile">
+        <source>View %@ Profile</source>
+        <note>%@ is a possessive of the person's name. For example 'View Joanna's Profile'</note>
+      </trans-unit>
+      <trans-unit id="View My Web Profile">
+        <source>View My Web Profile</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="View Profile">
+        <source>View Profile</source>
+      </trans-unit>
+      <trans-unit id="WEB PROFILE">
+        <source>WEB PROFILE</source>
+        <note>Title of the username section in the discovery setting scene</note>
+      </trans-unit>
+      <trans-unit id="WHERE">
+        <source>WHERE</source>
+      </trans-unit>
+      <trans-unit id="WHO">
+        <source>WHO</source>
+      </trans-unit>
+      <trans-unit id="Waze Maps">
+        <source>Waze Maps</source>
+        <note>Link to Waze Maps</note>
+      </trans-unit>
+      <trans-unit id="We compare your Facebook friends with those of your matches to display any common connections.">
+        <source>We compare your Facebook friends with those of your matches to display any common connections.</source>
+        <note>Subtitle label, 'We compare your Facebook friends with those of your matches to display any common connections.'</note>
+      </trans-unit>
+      <trans-unit id="We could not update your school information. Please try again.">
+        <source>We could not update your school information. Please try again.</source>
+        <note>Error description when the server doesn't allow the user to change school information</note>
+      </trans-unit>
+      <trans-unit id="We could not update your work information. Please try again.">
+        <source>We could not update your work information. Please try again.</source>
+        <note>Error description when the server doesn't allow the user to change school information
+   Error description when the server doesn't allow the user to change work information</note>
+      </trans-unit>
+      <trans-unit id="We couldn't share your moment, please try again">
+        <source>We couldn't share your moment, please try again</source>
+      </trans-unit>
+      <trans-unit id="We couldn’t Super Like %@.">
+        <source>We couldn’t Super Like %@.</source>
+        <note>We couldn’t Super Like [FIRSTNAME].</note>
+      </trans-unit>
+      <trans-unit id="We don't post anything to Facebook">
+        <source>We don't post anything to Facebook</source>
+        <note>Intro privacy text</note>
+      </trans-unit>
+      <trans-unit id="We don't post anything to Facebook.">
+        <source>We don't post anything to Facebook.</source>
+        <note>Intro info button text</note>
+      </trans-unit>
+      <trans-unit id="We don't share or sell your phone number.\nYour privacy is important to us.">
+        <source>We don't share or sell your phone number.
+Your privacy is important to us.</source>
+      </trans-unit>
+      <trans-unit id="We find you the best matches by learning from your swipes. Be more selective to help your thumb and your heart.">
+        <source>We find you the best matches by learning from your swipes. Be more selective to help your thumb and your heart.</source>
+        <note>Body text explaining to the user that their match quality depends on how they swipe. Encourages them not to excessively swipe.</note>
+      </trans-unit>
+      <trans-unit id="We found 0 top artists\nin your Spotify Account">
+        <source>We found 0 top artists
+in your Spotify Account</source>
+        <note>Top text for Zero Artists found in spotify settings</note>
+      </trans-unit>
+      <trans-unit id="We need your facebook permissions in order to display your job on your profile.">
+        <source>We need your facebook permissions in order to display your job on your profile.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="We redesigned your match list to make it easier to see and find your matches.">
+        <source>We redesigned your match list to make it easier to see and find your matches.</source>
+        <note>We redesigned your match list to make it easier to see and find your matches.</note>
+      </trans-unit>
+      <trans-unit id="We take your privacy seriously">
+        <source>We take your privacy seriously</source>
+        <note>Intro privacy view header label text</note>
+      </trans-unit>
+      <trans-unit id="We were unable to update your age or gender. Please try again later.">
+        <source>We were unable to update your age or gender. Please try again later.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="We'll love you forever!">
+        <source>We'll love you forever!</source>
+      </trans-unit>
+      <trans-unit id="We're going out!">
+        <source>We're going out!</source>
+        <note>default status</note>
+      </trans-unit>
+      <trans-unit id="We're happy that you're happy! Feel free to give us feedback at any time.">
+        <source>We're happy that you're happy! Feel free to give us feedback at any time.</source>
+        <note>Detail text for positive app review</note>
+      </trans-unit>
+      <trans-unit id="We’re currently unable to connect your Instagram account. Please try again.">
+        <source>We’re currently unable to connect your Instagram account. Please try again.</source>
+        <note>We’re currently unable to connect your Instagram account. Please try again.</note>
+      </trans-unit>
+      <trans-unit id="We’re currently unable to disconnect your Instagram account. Please try again.">
+        <source>We’re currently unable to disconnect your Instagram account. Please try again.</source>
+        <note>We’re currently unable to disconnect your Instagram account. Please try again.</note>
+      </trans-unit>
+      <trans-unit id="We’ve made changes under the hood so now you’ll see better people in your stack.">
+        <source>We’ve made changes under the hood so now you’ll see better people in your stack.</source>
+        <note>We’ve made changes under the hood so now you’ll see better people in your stack.</note>
+      </trans-unit>
+      <trans-unit id="What are you up to?">
+        <source>What are you up to?</source>
+        <note>status explanation in suggestion view</note>
+      </trans-unit>
+      <trans-unit id="What's New">
+        <source>What's New</source>
+      </trans-unit>
+      <trans-unit id="What's New in Tinder">
+        <source>What's New in Tinder</source>
+        <note>What's New in Tinder</note>
+      </trans-unit>
+      <trans-unit id="When you match with other users they'll appear here where you can send them a message">
+        <source>When you match with other users they'll appear here where you can send them a message</source>
+        <note>No matches description</note>
+      </trans-unit>
+      <trans-unit id="Where are you?">
+        <source>Where are you?</source>
+        <note>Error screen title, location disabled</note>
+      </trans-unit>
+      <trans-unit id="While turned off, you will not be shown in the card stack. You can still see and chat with your matches.">
+        <source>While turned off, you will not be shown in the card stack. You can still see and chat with your matches.</source>
+        <note>Settings description for the 'show me on discover' setting.</note>
+      </trans-unit>
+      <trans-unit id="Who are you going out with?">
+        <source>Who are you going out with?</source>
+        <note>title of the header in the group picker</note>
+      </trans-unit>
+      <trans-unit id="Who do you want to report?">
+        <source>Who do you want to report?</source>
+        <note>Who do you want to report?</note>
+      </trans-unit>
+      <trans-unit id="Whoops!">
+        <source>Whoops!</source>
+        <note>Alert view title when requesting a token for SMS verification failed
+   Alertview title when updating a users settings failed.</note>
+      </trans-unit>
+      <trans-unit id="Whoops...">
+        <source>Whoops...</source>
+        <note>Alertview title when a image failed to delete.
+   Alertview title when images couldn't be reordered.
+   Alertview title when the bio failed to update.</note>
+      </trans-unit>
+      <trans-unit id="Work &amp; School in Profiles">
+        <source>Work &amp; School in Profiles</source>
+        <note>Work &amp; School in Profiles</note>
+      </trans-unit>
+      <trans-unit id="Working...">
+        <source>Working...</source>
+        <note>Progress HUD displayed when you are authenticating with the server.</note>
+      </trans-unit>
+      <trans-unit id="Write anything...">
+        <source>Write anything...</source>
+        <note>custom status placeholder</note>
+      </trans-unit>
+      <trans-unit id="YOU'RE NOW ON\nTINDER SELECT">
+        <source>YOU'RE NOW ON
+TINDER SELECT</source>
+        <note>tinder select tool tip text</note>
+      </trans-unit>
+      <trans-unit id="Yes">
+        <source>Yes</source>
+        <note>Action for negative rating prompt for feedback</note>
+      </trans-unit>
+      <trans-unit id="Yesterday">
+        <source>Yesterday</source>
+      </trans-unit>
+      <trans-unit id="You Need To Stop">
+        <source>You Need To Stop</source>
+        <note>You Need To Stop (with that behavior)</note>
+      </trans-unit>
+      <trans-unit id="You Super Liked %@">
+        <source>You Super Liked %@</source>
+        <note>Label on the chat view that indicates who you Super Liked. 'You Super Liked &lt;persons name&gt;'</note>
+      </trans-unit>
+      <trans-unit id="You Super Liked %@ on %@">
+        <source>You Super Liked %1$@ on %2$@</source>
+        <note>Chat cell you Super Liked them timestamp message: %name %date. e.g. `You Super Liked Ana on 4/23/16`</note>
+      </trans-unit>
+      <trans-unit id="You Super Liked %@!">
+        <source>You Super Liked %@!</source>
+        <note>`You Super Liked Amanda!` - title label text</note>
+      </trans-unit>
+      <trans-unit id="You Swiped on Everyone Going Out">
+        <source>You Swiped on Everyone Going Out</source>
+        <note>no recommendations text in group discover</note>
+      </trans-unit>
+      <trans-unit id="You and %@ have liked each other.">
+        <source>You and %@ have liked each other.</source>
+        <note>Label on the new match screen that shows you and &lt;persons name&gt; have been matched together.</note>
+      </trans-unit>
+      <trans-unit id="You and someone have liked each other.">
+        <source>You and someone have liked each other.</source>
+      </trans-unit>
+      <trans-unit id="You can now connect one on one with individuals from your group chats.">
+        <source>You can now connect one on one with individuals from your group chats.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="You can now meet people going out\ntonight with Tinder Social! 🎉">
+        <source>You can now meet people going out
+tonight with Tinder Social! 🎉</source>
+        <note>tinder social tool tip text</note>
+      </trans-unit>
+      <trans-unit id="You can now share Moments from your Photo Library">
+        <source>You can now share Moments from your Photo Library</source>
+      </trans-unit>
+      <trans-unit id="You can provide feedback at any time from the Settings menu.">
+        <source>You can provide feedback at any time from the Settings menu.</source>
+        <note>Detail text for negative decline app rating prompt</note>
+      </trans-unit>
+      <trans-unit id="You can review us at any time from the Settings menu.">
+        <source>You can review us at any time from the Settings menu.</source>
+        <note>Detail text for positive decline app rating prompt</note>
+      </trans-unit>
+      <trans-unit id="You created the group on \n %@">
+        <source>You created the group on 
+ %@</source>
+        <note>Internal Group Chat Header</note>
+      </trans-unit>
+      <trans-unit id="You get one free boost a week">
+        <source>You get one free boost a week</source>
+        <note>You get one free boost a week</note>
+      </trans-unit>
+      <trans-unit id="You got a new match request!">
+        <source>You got a new match request!</source>
+      </trans-unit>
+      <trans-unit id="You got a new match!">
+        <source>You got a new match!</source>
+      </trans-unit>
+      <trans-unit id="You have %@ Super Likes left, but you can still buy more at any time.">
+        <source>You have %@ Super Likes left, but you can still buy more at any time.</source>
+        <note>plural super like package button prompt</note>
+      </trans-unit>
+      <trans-unit id="You have 1 Super Like left, but you can still buy more at any time.">
+        <source>You have 1 Super Like left, but you can still buy more at any time.</source>
+        <note>single super like package button prompt</note>
+      </trans-unit>
+      <trans-unit id="You have a limited time to save your moments to your Camera Roll.">
+        <source>You have a limited time to save your moments to your Camera Roll.</source>
+      </trans-unit>
+      <trans-unit id="You have a new match request!">
+        <source>You have a new match request!</source>
+        <note>New match request message</note>
+      </trans-unit>
+      <trans-unit id="You have a new match!">
+        <source>You have a new match!</source>
+        <note>New match message</note>
+      </trans-unit>
+      <trans-unit id="You have one hour to purchase Tinder Plus at %.0f%% off.">
+        <source>You have one hour to purchase Tinder Plus at %.0f%% off.</source>
+        <note>Notification text for 23 hours reminder for Tinder Plus Discount Expiration</note>
+      </trans-unit>
+      <trans-unit id="You just got up to %.1fx more profile views. Keep swiping for the best results!">
+        <source>You just got up to %.1fx more profile views. Keep swiping for the best results!</source>
+        <note>You just got up to (multiplier like 4.3)x more profile views. Keep swiping for the best results</note>
+      </trans-unit>
+      <trans-unit id="You matched with %@">
+        <source>You matched with %@</source>
+        <note>Label on the chat view that indicates who you are matched with. 'You matched with &lt;persons name&gt;'</note>
+      </trans-unit>
+      <trans-unit id="You matched with %@ on %@">
+        <source>You matched with %1$@ on %2$@</source>
+        <note>Chat cell match timestamp message: %name %date. e.g. `You matched with Ana on 4/23/16`</note>
+      </trans-unit>
+      <trans-unit id="You matched with %@!">
+        <source>You matched with %@!</source>
+        <note>New match message, with name</note>
+      </trans-unit>
+      <trans-unit id="You must enable Tinder Social to swipe on groups">
+        <source>You must enable Tinder Social to swipe on groups</source>
+        <note>dialog header for opting in to Tinder Social</note>
+      </trans-unit>
+      <trans-unit id="You need to login to use Tinder.">
+        <source>You need to login to use Tinder.</source>
+        <note>login alert view body</note>
+      </trans-unit>
+      <trans-unit id="You sent a GIPHY">
+        <source>You sent a GIPHY</source>
+        <note>You sent a GIPHY message in match list</note>
+      </trans-unit>
+      <trans-unit id="You will never be able to change your birthday again. Is %@ really your birthdate?">
+        <source>You will never be able to change your birthday again. Is %@ really your birthdate?</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="You will now see groups along with individuals in your stack. If two groups right swipe each other, everyone in the groups can chat. Check your profile for more details!">
+        <source>You will now see groups along with individuals in your stack. If two groups right swipe each other, everyone in the groups can chat. Check your profile for more details!</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="You will now see groups along with individuals in your stack. If two groups right swipe each other, everyone in the groups can chat. Set a status to let people know what your group is up to.">
+        <source>You will now see groups along with individuals in your stack. If two groups right swipe each other, everyone in the groups can chat. Set a status to let people know what your group is up to.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="You'll get more Super Likes later today.">
+        <source>You'll get more Super Likes later today.</source>
+        <note>You'll get more Super Likes later today.</note>
+      </trans-unit>
+      <trans-unit id="You'll get more likes later today.">
+        <source>You'll get more likes later today.</source>
+        <note>You'll get more likes later today.</note>
+      </trans-unit>
+      <trans-unit id="You're Out of Likes">
+        <source>You're Out of Likes</source>
+        <note>User Ran Out of Likes</note>
+      </trans-unit>
+      <trans-unit id="You're about to Super Like for the first time. This will let %@ know that you've Super Liked them.">
+        <source>You're about to Super Like for the first time. This will let %@ know that you've Super Liked them.</source>
+        <note>You're about to Super Like for the first time. This will let [NAME] know that you've Super Liked them.</note>
+      </trans-unit>
+      <trans-unit id="You're going out tonight with">
+        <source>You're going out tonight with</source>
+        <note>Explanation of groups. Underneath this title there will be a set of names like \"Ryan, Michael, and Jessica\", should read like: You're going out tonight with\nRyan, Michael, and Jessica</note>
+      </trans-unit>
+      <trans-unit id="You're going out tonight with\n">
+        <source>You're going out tonight with
+</source>
+        <note>You're going out tonight with\n (names of people) - for example `You're going out tonight with\n Louis, Alex, Lacey`</note>
+      </trans-unit>
+      <trans-unit id="You're no longer out">
+        <source>You're no longer out</source>
+        <note>Title for group expired modal</note>
+      </trans-unit>
+      <trans-unit id="You've Been Reported">
+        <source>You've Been Reported</source>
+        <note>You Have Been Reported</note>
+      </trans-unit>
+      <trans-unit id="You've been Super Liked!">
+        <source>You've been Super Liked!</source>
+      </trans-unit>
+      <trans-unit id="You've been invited to Tinder Social. Update the app to swipe on groups.">
+        <source>You've been invited to Tinder Social. Update the app to swipe on groups.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="You've been reported by users too many times. We will be reviewing your account to determine what action needs to be made.">
+        <source>You've been reported by users too many times. We will be reviewing your account to determine what action needs to be made.</source>
+        <note>You've been reported by users too many times.  We will be reviewing your account to determine what action needs to be made.</note>
+      </trans-unit>
+      <trans-unit id="You've been reported for:">
+        <source>You've been reported for:</source>
+        <note>You have been reported for:</note>
+      </trans-unit>
+      <trans-unit id="You've upgraded to Tinder Plus!">
+        <source>You've upgraded to Tinder Plus!</source>
+        <note>Tinder Plus Features are now accessible by user</note>
+      </trans-unit>
+      <trans-unit id="You've used all of your Super Likes for today. Thanks for subscribing to Tinder Plus!">
+        <source>You've used all of your Super Likes for today. Thanks for subscribing to Tinder Plus!</source>
+        <note>You've used all of your Super Likes for today. Thanks for subscribing to Tinder Plus!</note>
+      </trans-unit>
+      <trans-unit id="Your Account Is Under Review.">
+        <source>Your Account Is Under Review.</source>
+        <note>Your account is under review.</note>
+      </trans-unit>
+      <trans-unit id="Your Boost has ended">
+        <source>Your Boost has ended</source>
+        <note>Your Boost has ended</note>
+      </trans-unit>
+      <trans-unit id="Your Card is Hidden">
+        <source>Your Card is Hidden</source>
+        <note>Title for discovery-off card</note>
+      </trans-unit>
+      <trans-unit id="Your Facebook password has changed. To confirm your password, open Settings &gt; Facebook and enter your account details.">
+        <source>Your Facebook password has changed. To confirm your password, open Settings &gt; Facebook and enter your account details.</source>
+        <note>Alertview message when a user changed their password on facebook.</note>
+      </trans-unit>
+      <trans-unit id="Your Facebook password has changed.\n\nOpen Settings &gt; Facebook and enter your account details to continue.">
+        <source>Your Facebook password has changed.
+
+Open Settings &gt; Facebook and enter your account details to continue.</source>
+        <note>Error screen description, no account in settings</note>
+      </trans-unit>
+      <trans-unit id="Your Facebook password has changed.\n\nOpen Settings &gt; Facebook and tap on your name to confirm your password.">
+        <source>Your Facebook password has changed.
+
+Open Settings &gt; Facebook and tap on your name to confirm your password.</source>
+        <note>Error screen description, update password</note>
+      </trans-unit>
+      <trans-unit id="Your Facebook settings prevent Tinder from working.\n\nOpen Settings &gt; Facebook and switch Tinder to ON.">
+        <source>Your Facebook settings prevent Tinder from working.
+
+Open Settings &gt; Facebook and switch Tinder to ON.</source>
+        <note>Error screen description, Tinder disabled</note>
+      </trans-unit>
+      <trans-unit id="Your Group matched with">
+        <source>Your Group matched with</source>
+        <note>Label on the new match screen that shows you and &lt;persons name&gt; have been matched together.</note>
+      </trans-unit>
+      <trans-unit id="Your Instagram account is already connected to a Tinder profile. Please disconnect it if you wish to use it here.">
+        <source>Your Instagram account is already connected to a Tinder profile. Please disconnect it if you wish to use it here.</source>
+        <note>Your Instagram account is already connected to a Tinder profile. Please disconnect it if you wish to use it here.</note>
+      </trans-unit>
+      <trans-unit id="Your Instagram photos will be removed from your Tinder profile.">
+        <source>Your Instagram photos will be removed from your Tinder profile.</source>
+        <note>Your Instagram photos will be removed from your Tinder profile.</note>
+      </trans-unit>
+      <trans-unit id="Your Tinder Plus Subscription has been activated! Rewind and Passport are unlocked, you've got unlimited Likes, and no ads will be shown to you.">
+        <source>Your Tinder Plus Subscription has been activated! Rewind and Passport are unlocked, you've got unlimited Likes, and no ads will be shown to you.</source>
+      </trans-unit>
+      <trans-unit id="Your Tinder Plus Subscription has been activated.">
+        <source>Your Tinder Plus Subscription has been activated.</source>
+        <note>Tinder Plus subscription activation success alert view description.
+   Tinder Plus subscription restore success alert view description.</note>
+      </trans-unit>
+      <trans-unit id="Your Tinder account was successfully deleted and your Facebook profile delinked. Signing in with Facebook again will create a new Tinder account.">
+        <source>Your Tinder account was successfully deleted and your Facebook profile delinked. Signing in with Facebook again will create a new Tinder account.</source>
+        <note>Alertview message when a users account was successfully deleted.</note>
+      </trans-unit>
+      <trans-unit id="Your account has been verified.">
+        <source>Your account has been verified.</source>
+        <note>Code verification completed, detail text</note>
+      </trans-unit>
+      <trans-unit id="Your boost is in progress. Keep swiping for the best results!">
+        <source>Your boost is in progress. Keep swiping for the best results!</source>
+        <note>Your boost is in progress. Keep swiping for the best results</note>
+      </trans-unit>
+      <trans-unit id="Your current session is no longer valid. Please log in again.">
+        <source>Your current session is no longer valid. Please log in again.</source>
+        <note>login alert view content</note>
+      </trans-unit>
+      <trans-unit id="Your feedback is very important. Help us make Tinder the best it can be.">
+        <source>Your feedback is very important. Help us make Tinder the best it can be.</source>
+        <note>Detail text for negative app rating response</note>
+      </trans-unit>
+      <trans-unit id="Your friends on Tinder Social can invite you to go out. Go to settings to change these permissions">
+        <source>Your friends on Tinder Social can invite you to go out. Go to settings to change these permissions</source>
+        <note>text telling user how the social feature works and how to opt out of tinder social bottom of friends list in group picker)</note>
+      </trans-unit>
+      <trans-unit id="Your friends on Tinder Social can invite you to go out. Go to settings to change these permissions.">
+        <source>Your friends on Tinder Social can invite you to go out. Go to settings to change these permissions.</source>
+        <note>text to let the user know that they can opt out of tinder socail</note>
+      </trans-unit>
+      <trans-unit id="Your friends on Tinder Social will be able to see and invite you to go out.">
+        <source>Your friends on Tinder Social will be able to see and invite you to go out.</source>
+        <note>Information for Tinder Social above the Unlock Social button</note>
+      </trans-unit>
+      <trans-unit id="Your friends on Tinder Social will be able to\n find and invite you to go out">
+        <source>Your friends on Tinder Social will be able to
+ find and invite you to go out</source>
+        <note>not opted into social description text</note>
+      </trans-unit>
+      <trans-unit id="Your group and group matches have just expired.">
+        <source>Your group and group matches have just expired.</source>
+        <note>Text for group expired modal</note>
+      </trans-unit>
+      <trans-unit id="Your group expires \n on %@">
+        <source>Your group expires 
+ on %@</source>
+        <note>group expires first</note>
+      </trans-unit>
+      <trans-unit id="Your group expires in %@">
+        <source>Your group expires in %@</source>
+        <note>Your group expires in [time], where time is hh:mm, i.e. 'Your group expires in 35:52'</note>
+      </trans-unit>
+      <trans-unit id="Your input helps us make your experience better. Thanks again for your feedback.">
+        <source>Your input helps us make your experience better. Thanks again for your feedback.</source>
+        <note>Detail text for app rating feedback sent</note>
+      </trans-unit>
+      <trans-unit id="Your location is not shown to other users">
+        <source>Your location is not shown to other users</source>
+        <note>Intro privacy text</note>
+      </trans-unit>
+      <trans-unit id="Your subscription has been restored and is now connected to this Tinder account.">
+        <source>Your subscription has been restored and is now connected to this Tinder account.</source>
+        <note>Your subscription has been restored and is now connected to this Tinder account.</note>
+      </trans-unit>
+      <trans-unit id="You’re Out of Super Likes">
+        <source>You’re Out of Super Likes</source>
+        <note>Super Like Packages Paywall Title</note>
+      </trans-unit>
+      <trans-unit id="ea">
+        <source>ea</source>
+        <note>Shorthand for each, in the string '$7.99/ea'</note>
+      </trans-unit>
+      <trans-unit id="less than a kilometer away">
+        <source>less than a kilometer away</source>
+        <note>Message displayed when a person is less than a mile away from you.</note>
+      </trans-unit>
+      <trans-unit id="less than a mile away">
+        <source>less than a mile away</source>
+        <note>Message displayed when a person is less than a mile away from you.</note>
+      </trans-unit>
+      <trans-unit id="liked your moment">
+        <source>liked your moment</source>
+      </trans-unit>
+      <trans-unit id="liked your moment!">
+        <source>liked your moment!</source>
+      </trans-unit>
+      <trans-unit id="mo">
+        <source>mo</source>
+        <note>Shorthand for month, in the string '6 months for $7.99/[mo]'</note>
+      </trans-unit>
+      <trans-unit id="month">
+        <source>month</source>
+        <note>Singular month (==1)</note>
+      </trans-unit>
+      <trans-unit id="months">
+        <source>months</source>
+        <note>Plural months (&gt; 1)</note>
+      </trans-unit>
+      <trans-unit id="save">
+        <source>save</source>
+      </trans-unit>
+      <trans-unit id="until you get more Super Likes.">
+        <source>until you get more Super Likes.</source>
+        <note>`(time in hours, minutes, seconds, e.g. 11:59:00) until you get more Super Likes.` - detail text</note>
+      </trans-unit>
+      <trans-unit id="user name has already been created">
+        <source>user name has already been created</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="✌️ Out with the squad? Where?">
+        <source>✌️ Out with the squad? Where?</source>
+        <note>Rotating prompt</note>
+      </trans-unit>
+      <trans-unit id="🌴 Create some FOMO">
+        <source>🌴 Create some FOMO</source>
+        <note>Rotating prompt</note>
+      </trans-unit>
+      <trans-unit id="🎈 What are you up to?">
+        <source>🎈 What are you up to?</source>
+        <note>Rotating prompt</note>
+      </trans-unit>
+      <trans-unit id="🎉 What’s the plan?">
+        <source>🎉 What’s the plan?</source>
+        <note>Rotating prompt</note>
+      </trans-unit>
+      <trans-unit id="💥 Where are you headed?">
+        <source>💥 Where are you headed?</source>
+        <note>Rotating prompt</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
