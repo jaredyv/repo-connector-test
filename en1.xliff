@@ -5,10 +5,10 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8A218a"/>
     </header>
     <body>
-      <trans-unit translate=no id="CFBundleName">
+      <trans-unit translate="no" id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
       </trans-unit>
-      <trans-unit translate=no id="CFBundleShortVersionString">
+      <trans-unit translate="no" id="CFBundleShortVersionString">
         <source>1.0</source>
       </trans-unit>
     </body>
@@ -18,7 +18,7 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8A218a"/>
     </header>
     <body>
-      <trans-unit translate=no id="CFBundleName">
+      <trans-unit translate="no" id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
@@ -37,13 +37,13 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8A218a"/>
     </header>
     <body>
-      <trans-unit translate=no id="CFBundleDisplayName">
+      <trans-unit translate="no" id="CFBundleDisplayName">
         <source>Stacks</source>
       </trans-unit>
-      <trans-unit translate=no id="CFBundleName">
+      <trans-unit translate="no" id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
       </trans-unit>
-      <trans-unit translate=no id="CFBundleShortVersionString">
+      <trans-unit translate="no" id="CFBundleShortVersionString">
         <source>1.0</source>
       </trans-unit>
     </body>
@@ -75,7 +75,7 @@
       </trans-unit>
     </body>
   </file>
-  <file translate=no original="Tinder Enterprise UI Tests.plist" source-language="en" datatype="plaintext">
+  <file original="Tinder Enterprise UI Tests.plist" source-language="en" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8A218a"/>
     </header>
