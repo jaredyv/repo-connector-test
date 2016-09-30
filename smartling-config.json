@@ -40,11 +40,11 @@
             "translationPathExpression" : "translated\\/${originalFile.path}${originalFile.baseName.replaceAll('_en$', '_'+locale)}.${originalFile.extension}",
             "translationCommitMessage"  : "Translate ${originalFile.fullName} to ${locale}"
             "smartlingDirectives"       : [
-            		"smartling.translate_mode = custom",
-			"smartling.translate_paths = [\"/*\"]",
-			"smartling.source_key_paths = [\"/{*}\"]",
-			"smartling.variants_enabled = true",
-			"smartling.placeholder_format_custom = \\{\\{\\{[^\\}\\{]+?\\}\\}\\}"
+            		 "smartling.translate_mode = custom",
+			 "smartling.translate_paths = /*",
+			 "smartling.source_key_paths = /{*}",
+			 "smartling.variants_enabled = true",
+			 "smartling.placeholder_format_custom = \\{\\{\\{[^\\}\\{]+?\\}\\}\\}"
              ]
          }
      ]
