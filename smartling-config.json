@@ -44,7 +44,7 @@
 			"smartling.translate_paths = [\"/*\"]",
 			"smartling.source_key_paths = [\"/{*}\"]",
 			"smartling.variants_enabled = true",
-			"smartling.placeholder_format_custom = \\{\\{\\{[^\\}\\{]+?\\}\\}\\})"
+			"smartling.placeholder_format_custom = \\{\\{\\{[^\\}\\{]+?\\}\\}\\}"
              ]
          }
      ]
