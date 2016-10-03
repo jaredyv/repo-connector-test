@@ -1,1 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ © 2013 - 2016 Tinder, Inc., ALL RIGHTS RESERVED
+  -->
+<resources>
+    <string translatable="false" name="app_name">Tinder</string>
+    <string translatable="false" name="app_id">464891386855067</string>
+    <string translatable="false" name="side_menu_tag">fragment-side-nav-panel</string>
+    <string name="messages">Messages</string>
 
+    <!-- Content Description Strings -->
+    <!-- Action Bar -->
+    <string name='btn_main_menu'>Button Main Menu</string>
+    <string name="btn_main_matches">Button Main Matches</string>
+    <string name='btn_main_moments'>Button Main Moments</string>
+
+    <!-- Main Menu -->
+    <string name='relative_settings_header'>View Profile</string>
+    <string name='relative_discover_prefs'>Discovery Preferences</string>
+    <string name='relative_app_settings'>App Settings</string>
+    <string name='relative_contact_tinder'>Contact Tinder</string>
+    <string name='relative_share_tinder'>Share Tinder</string>
+
+    <!-- Discovery Preferences Menu -->
+    <string name='discover_up'>Back</string>
+
+    <string name='checkBox_discover'>Discover</string>
+    <string name='text_show_me'>Show Me: text</string>
+    <string name='checkBox_males'>Show Me: Men</string>
+    <string name='checkBox_females'>Show Me: Women</string>
+    <string name='seekBar_distance'>Search Distance</string>
+    <string name='text_distance'>Search Distance for discovery</string>
+    <string name='seekBar_ages'>Show Ages</string>
+    <string name='text_ages'>Show Ages text</string>
+
+    <!-- Recs Discover Off -->
+    <string name="turn_on_discover_button">Button Discovery On</string>
+    <!-- / End content description strings -->
+
+    <!-- WebView static urls -->
+    <string translatable="false" name="webview_url_terms">http://www.gotinder.com/terms?nav=false</string>
+    <string translatable="false" name="webview_url_privacy">https://www.gotinder.com/privacy?nav=false</string>
+
+    <!-- Share menu -->
+    <string name="share_dialog_title">Share to:</string>
+    <string name="share_text">Check out Tinder… it shows you who likes you nearby! http://www.gotinder.com/app/</string>
+
+    <!-- kv Errors -->
+    <string name="error_moment_delete">There was a problem deleting your Moment. Please try again.</string>
+    <string name="error_moment_send">There was an error sending your Moment. Please try again.</string>
+    <string name="error_email_app_not_found">Sorry, email app not found.</string>
+    <string name="error_login">There was a problem logging into Tinder. Please try again.</string>
+    <string name="error_profile">There was an error getting requested profile. Please try again.</string>
+    <string name="error_profile_info_update">There was an error updating profile info. Please try again.</string>
+    <string name="error_pic_delete">Failed to delete pic, please try again.</string>
+    <string name="error_pic_add">Failed to add pic, please try again.</string>
+    <string name="error_pic_main">Failed to update profile pic, please try again.</string>
+    <string name="error_pic_swap">Failed to swap pics, please try again.</string>
+    <string name="error_taking_pic">You are out of memory. Please try closing some other apps and restarting Tinder.</string>
+    <string name="error_network_missing">Network connection unavailable. Please check that you have a data connection and try again.</string>
+    <string name="error_camera_permission">You have not given Tinder permission to take photos</string>
+    <string name="error_profile_update">There was an error updating your profile. Please try again.</string>
+
+    <!-- filters -->
+    <string name="original">Original</string>
+    <string name="coal">Coal</string>
+    <string name="glow">Glow</string>
+    <string name="chill">Chill</string>
+
+    <!-- kv General -->
+    <string name="cancel">Cancel</string>
+    <string name="logout">Logout</string>
+    <string name="ask_logout">Logout?</string>
+    <string name="ok">OK</string>
+    <string name="retry">Retry</string>
+    <string name="connect">Connect</string>
+    <string name="yes">Yes</string>
+    <string name="copied">Copied</string>
+    <string name="search">Search</string>
+    <string name="discovery_settings">Discovery Settings</string>
+</resources>
